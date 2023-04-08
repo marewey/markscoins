@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "markscoins:coin_diamond"
+    }
+  ],
+  "result": {
+    "item": "markscoins:coin_ruby",
+    "count": 4
+  }
+}

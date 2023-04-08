@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "markscoins:coin_amethyst"
+    }
+  ],
+  "result": {
+    "item": "markscoins:coin_platinum",
+    "count": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Mark's Coin's",
+    "icon": {
+      "value": "CUSTOM:CoinGold"
+    },
+    "showSearch": false
+  }
+}

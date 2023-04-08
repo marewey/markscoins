@@ -1,0 +1,1156 @@
+{
+  "mod_elements": [
+    {
+      "name": "CoinWood",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/CoinWoodItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_wood.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinStone",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/CoinStoneItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_stone.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinCopper",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/markscoins/models/item/coin_copper.json",
+          "src/main/java/net/rewey/markscoins/item/CoinCopperItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinIron",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/markscoins/models/item/coin_iron.json",
+          "src/main/java/net/rewey/markscoins/item/CoinIronItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinGold",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/markscoins/models/item/coin_gold.json",
+          "src/main/java/net/rewey/markscoins/item/CoinGoldItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinPlatinum",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_platinum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/CoinPlatinumItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_platinum.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinAmethyst",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_amethyst",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/CoinAmethystItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_amethyst.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinSapphire",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_sapphire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/CoinSapphireItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_sapphire.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinRuby",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/markscoins/models/item/coin_ruby.json",
+          "src/main/java/net/rewey/markscoins/item/CoinRubyItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinDiamond",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/markscoins/models/item/coin_diamond.json",
+          "src/main/java/net/rewey/markscoins/item/CoinDiamondItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinEmerald",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_emerald",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/CoinEmeraldItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_emerald.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinNetherite",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_netherite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/CoinNetheriteItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_netherite.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinPlantEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_plant_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinPlantEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CoinPlantUpdateTick",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_plant_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinPlantUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CoinPlantTable",
+      "type": "loottable",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_plant_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/loot_tables/blocks/coin_plant.json"
+        ]
+      },
+      "path": "~/loot_tables"
+    },
+    {
+      "name": "CoinPlant",
+      "type": "plant",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/markscoins/models/block/coin_plant.json",
+          "src/main/java/net/rewey/markscoins/block/CoinPlantBlock.java",
+          "src/main/java/net/rewey/markscoins/world/features/plants/CoinPlantFeature.java",
+          "src/main/resources/assets/markscoins/models/item/coin_plant.json",
+          "src/main/resources/assets/markscoins/blockstates/coin_plant.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "WoodStone",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/wood_stone.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "StoneCopper",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/stone_copper.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "CopperIron",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/copper_iron.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "IronGold",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/iron_gold.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "GoldPlatinum",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_platinum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/gold_platinum.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "PlatinumAmethyst",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_amethyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/platinum_amethyst.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "AmethystSapphire",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sapphire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/amethyst_sapphire.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "SapphireRuby",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/sapphire_ruby.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RubyDiamond",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/ruby_diamond.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "DiamondEmerald",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_emerald",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/diamond_emerald.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "EmeraldNetherite",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_netherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/emerald_netherite.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "NetheriteEmerald",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_emerald",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/netherite_emerald.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "EmeraldDiamond",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/emerald_diamond.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "DiamondRuby",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/diamond_ruby.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RubySapphire",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sapphire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/ruby_sapphire.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "SapphireAmethyst",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_amethyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/sapphire_amethyst.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "AmethystPlatinum",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_platinum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/amethyst_platinum.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "PlatinumGold",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/platinum_gold.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "GoldIron",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/gold_iron.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "IronCopper",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/iron_copper.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "CopperStone",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/copper_stone.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "StoneWood",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/stone_wood.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "UnbakedCoin",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unbaked_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/UnbakedCoinItem.java",
+          "src/main/resources/assets/markscoins/models/item/unbaked_coin.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinFrame",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/markscoins/models/item/coin_frame.json",
+          "src/main/java/net/rewey/markscoins/item/CoinFrameItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "FrameAndWood",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frame_and_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/frame_and_wood.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "CookUnbakedCoin",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cook_unbaked_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/cook_unbaked_coin.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "NetheriteAdv",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/advancements/netherite_adv.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "EmeraldAdv",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/advancements/emerald_adv.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "WoodAdv",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/advancements/wood_adv.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "DimensionalTravelAdv",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensional_travel_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/advancements/dimensional_travel_adv.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "CoinNetheriteRightclicked",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_netherite_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinNetheriteRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "MakeFrame",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/make_frame.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "BurnWoodCoin",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burn_wood_coin",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "CoinTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "SafeDim",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safe_dim",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/SafeDimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "Safedimcmd",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safedimcmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/command/SafedimcmdCommand.java"
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "CoinAmethystRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_amethyst_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinAmethystRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CoinEmeraldItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_emerald_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinEmeraldItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CoinGoldItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_gold_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinGoldItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CoinCopperItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_copper_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinCopperItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CoinNetheriteItemInHandTick",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_netherite_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinNetheriteItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CoinDiamondItemInHandTick",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_diamond_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinDiamondItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CoinRubyLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_ruby_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinRubyLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "OreCoinBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_coin_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/OreCoinBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "OreCoin",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/markscoins/models/block/ore_coin.json",
+          "src/main/java/net/rewey/markscoins/block/OreCoinBlock.java",
+          "src/main/resources/assets/markscoins/blockstates/ore_coin.json",
+          "src/main/resources/assets/markscoins/models/item/ore_coin.json",
+          "src/main/java/net/rewey/markscoins/world/features/ores/OreCoinFeature.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "OreCoinTable",
+      "type": "loottable",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_coin_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/loot_tables/blocks/ore_coin.json"
+        ]
+      },
+      "path": "~/loot_tables"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "balance",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.markscoins.coin_netherite": "Netherite Coin",
+      "item.markscoins.coin_emerald": "Emerald Coin",
+      "advancements.dimensional_travel_adv.title": "Planes walker",
+      "advancements.dimensional_travel_adv.descr": "Use netherite coin to travel to the nether",
+      "item.markscoins.coin_platinum": "Platinum Coin",
+      "item.markscoins.coin_wood": "Wood Coin",
+      "block.markscoins.ore_coin": "Coin Ore",
+      "item.markscoins.coin_stone": "Stone Coin",
+      "itemGroup.tabcoin_tab": "Mark\u0027s Coin\u0027s",
+      "item.markscoins.coin_iron": "Iron Coin",
+      "block.markscoins.coin_plant": "Coin Flower",
+      "advancements.wood_adv.descr": "Aquire your first coin",
+      "advancements.wood_adv.title": "Economy",
+      "item.markscoins.coin_diamond": "Diamond Coin",
+      "item.markscoins.unbaked_coin": "Unbaked Coin",
+      "advancements.emerald_adv.title": "Millionaire",
+      "item.markscoins.coin_amethyst": "Amethyst Coin",
+      "item.markscoins.coin_copper": "Copper Coin",
+      "item.markscoins.coin_sapphire": "Sapphire Coin",
+      "item.markscoins.coin_frame": "Coin Frame",
+      "item.markscoins.coin_gold": "Gold Coin",
+      "advancements.emerald_adv.descr": "Reach 1 Million WP",
+      "advancements.netherite_adv.descr": "Reach 4 Million WP",
+      "item.markscoins.coin_ruby": "Ruby Coin",
+      "advancements.netherite_adv.title": "Multi-Millionaire"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "procedures",
+        "children": []
+      },
+      {
+        "name": "recipes",
+        "children": []
+      },
+      {
+        "name": "loot_tables",
+        "children": []
+      },
+      {
+        "name": "advancements",
+        "children": []
+      },
+      {
+        "name": "commands",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "markscoins",
+    "modName": "markscoins",
+    "version": "1.0.0",
+    "author": "markr, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.rewey.markscoins",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

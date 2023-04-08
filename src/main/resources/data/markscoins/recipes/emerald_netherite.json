@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "markscoins:coin_emerald"
+    },
+    {
+      "item": "markscoins:coin_emerald"
+    },
+    {
+      "item": "markscoins:coin_emerald"
+    },
+    {
+      "item": "markscoins:coin_emerald"
+    }
+  ],
+  "result": {
+    "item": "markscoins:coin_netherite",
+    "count": 1
+  }
+}

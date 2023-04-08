@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "markscoins:coin_sapphire"
+    },
+    {
+      "item": "markscoins:coin_sapphire"
+    },
+    {
+      "item": "markscoins:coin_sapphire"
+    },
+    {
+      "item": "markscoins:coin_sapphire"
+    }
+  ],
+  "result": {
+    "item": "markscoins:coin_ruby",
+    "count": 1
+  }
+}

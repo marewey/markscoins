@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "markscoins:blocks/orecoin",
+    "particle": "markscoins:blocks/orecoin"
+  }
+}
