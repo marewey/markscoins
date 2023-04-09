@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Ghost",
+    "texture": "hog-ghost-record",
+    "description": "HOG - Ghost",
+    "creativeTab": {
+      "value": "CUSTOM:CoinTab"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:hog-ghost"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 9
+  }
+}

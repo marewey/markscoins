@@ -73,7 +73,7 @@
       "value": ""
     },
     "offsetType": "XZ",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "DANGER_OTHER",
     "flammability": 100,
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
@@ -93,12 +93,15 @@
       }
     ],
     "isBonemealable": false,
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Surface"
     ],
     "restrictionBiomes": [],
-    "patchSize": 5,
+    "generateCondition": {
+      "name": "CoinPlantAdditionalGenerationCondition"
+    },
+    "patchSize": 12,
     "generateAtAnyHeight": false,
     "onNeighbourBlockChanges": {
       "name": "CoinPlantUpdateTick"

@@ -6,6 +6,7 @@ package net.rewey.markscoins.init;
 
 import net.rewey.markscoins.world.features.plants.CoinPlantFeature;
 import net.rewey.markscoins.world.features.ores.OreCoinFeature;
+import net.rewey.markscoins.world.features.ores.OreCoinDeepslateFeature;
 import net.rewey.markscoins.MarkscoinsMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -33,6 +34,8 @@ public class MarkscoinsModFeatures {
 	public static final RegistryObject<Feature<?>> COIN_PLANT = register("coin_plant", CoinPlantFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, CoinPlantFeature.GENERATE_BIOMES, CoinPlantFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> ORE_COIN = register("ore_coin", OreCoinFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, OreCoinFeature.GENERATE_BIOMES, OreCoinFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ORE_COIN_DEEPSLATE = register("ore_coin_deepslate", OreCoinDeepslateFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, OreCoinDeepslateFeature.GENERATE_BIOMES, OreCoinDeepslateFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

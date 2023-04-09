@@ -1,6 +1,7 @@
 
 package net.rewey.markscoins.world.features.plants;
 
+import net.rewey.markscoins.procedures.CoinPlantAdditionalGenerationConditionProcedure;
 import net.rewey.markscoins.init.MarkscoinsModBlocks;
 
 import net.minecraft.world.level.levelgen.placement.RarityFilter;
@@ -34,8 +35,8 @@ public class CoinPlantFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new CoinPlantFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("markscoins:coin_plant", FEATURE,
-				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MarkscoinsModBlocks.COIN_PLANT.get().defaultBlockState())), List.of(), 5));
-		PLACED_FEATURE = PlacementUtils.register("markscoins:coin_plant", CONFIGURED_FEATURE, List.of(CountPlacement.of(5), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MarkscoinsModBlocks.COIN_PLANT.get().defaultBlockState())), List.of(), 12));
+		PLACED_FEATURE = PlacementUtils.register("markscoins:coin_plant", CONFIGURED_FEATURE, List.of(CountPlacement.of(1), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -53,6 +54,11 @@ public class CoinPlantFeature extends RandomPatchFeature {
 	public boolean place(FeaturePlaceContext<RandomPatchConfiguration> context) {
 		WorldGenLevel world = context.level();
 		if (!generate_dimensions.contains(world.getLevel().dimension()))
+			return false;
+		int x = context.origin().getX();
+		int y = context.origin().getY();
+		int z = context.origin().getZ();
+		if (!CoinPlantAdditionalGenerationConditionProcedure.execute(world, x, y, z))
 			return false;
 		return super.place(context);
 	}

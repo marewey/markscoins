@@ -271,11 +271,11 @@
       "registry_name": "coin_plant",
       "metadata": {
         "files": [
+          "src/main/resources/assets/markscoins/models/block/coin_plant.json",
           "src/main/java/net/rewey/markscoins/block/CoinPlantBlock.java",
-          "src/main/resources/assets/markscoins/models/item/coin_plant.json",
           "src/main/java/net/rewey/markscoins/world/features/plants/CoinPlantFeature.java",
-          "src/main/resources/assets/markscoins/blockstates/coin_plant.json",
-          "src/main/resources/assets/markscoins/models/block/coin_plant.json"
+          "src/main/resources/assets/markscoins/models/item/coin_plant.json",
+          "src/main/resources/assets/markscoins/blockstates/coin_plant.json"
         ]
       },
       "path": "~/blocks"
@@ -1355,6 +1355,97 @@
         ]
       },
       "path": "~/commands"
+    },
+    {
+      "name": "CoinTrade1",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_trade_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "Tommac",
+      "type": "musicdisc",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tommac",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/TommacItem.java",
+          "src/main/resources/assets/markscoins/models/item/tommac.json"
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "OreCoinDeepslate",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_coin_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/block/OreCoinDeepslateBlock.java",
+          "src/main/java/net/rewey/markscoins/world/features/ores/OreCoinDeepslateFeature.java",
+          "src/main/resources/assets/markscoins/blockstates/ore_coin_deepslate.json",
+          "src/main/resources/assets/markscoins/models/block/ore_coin_deepslate.json",
+          "src/main/resources/assets/markscoins/models/item/ore_coin_deepslate.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "OreCoinDeepslateTable",
+      "type": "loottable",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_coin_deepslate_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/loot_tables/blocks/ore_coin_deepslate.json"
+        ]
+      },
+      "path": "~/loot_tables"
+    },
+    {
+      "name": "CoinPlantAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_plant_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinPlantAdditionalGenerationConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
     }
   ],
   "variable_elements": [
@@ -1395,7 +1486,16 @@
       "value": "false"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "hog-ghost",
+      "files": [
+        "tom_macdonald_-_ghost"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.markscoins.coin_netherite": "Netherite Coin",
@@ -1403,14 +1503,16 @@
       "item.markscoins.coin_emerald": "Emerald Coin",
       "advancements.dimensional_travel_adv.title": "Planes walker",
       "advancements.dimensional_travel_adv.descr": "Use netherite coin to travel to the nether",
-      "item.markscoins.coin_platinum": "Platinum Coin",
-      "gui.markscoins.bank_gui.label_bank": "Balance",
       "effect.markscoins.grounded": "Grounded",
+      "gui.markscoins.bank_gui.label_bank": "Balance",
+      "item.markscoins.coin_platinum": "Platinum Coin",
       "item.markscoins.coin_wood": "Wood Coin",
       "item.markscoins.coin_stone": "Stone Coin",
       "block.markscoins.ore_coin": "Coin Ore",
       "itemGroup.tabcoin_tab": "Mark\u0027s Coin\u0027s",
+      "item.markscoins.tommac": "Ghost",
       "item.markscoins.coin_iron": "Iron Coin",
+      "item.markscoins.tommac.desc": "HOG - Ghost",
       "block.markscoins.coin_plant": "Coin Flower",
       "advancements.wood_adv.descr": "Aquire your first coin",
       "advancements.wood_adv.title": "Shiny",
@@ -1418,6 +1520,7 @@
       "item.markscoins.unbaked_coin": "Unbaked Coin",
       "gui.markscoins.bank_gui.label_varmoney_disp": "\u003cVAR:balance_disp\u003e",
       "gui.markscoins.bank_gui.label_deposit": "Deposit",
+      "block.markscoins.ore_coin_deepslate": "Coin Ore",
       "advancements.emerald_adv.title": "Millionaire",
       "item.markscoins.coin_amethyst": "Amethyst Coin",
       "item.markscoins.coin_copper": "Copper Coin",
@@ -1429,6 +1532,7 @@
       "advancements.netherite_adv.descr": "Reach 4 Million WP",
       "gui.markscoins.bank_gui.button_take": "Take",
       "item.markscoins.coin_ruby": "Ruby Coin",
+      "subtitles.hog-ghost": "",
       "advancements.netherite_adv.title": "Multi-Millionaire",
       "advancements.atm_adv.title": "Economy",
       "gui.markscoins.bank_gui.label_withdraw": "Withdraw"

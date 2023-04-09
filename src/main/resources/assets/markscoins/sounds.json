@@ -1,0 +1,11 @@
+{
+  "hog-ghost": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "markscoins:tom_macdonald_-_ghost",
+        "stream": true
+      }
+    ]
+  }
+}
