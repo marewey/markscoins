@@ -4,6 +4,7 @@
   "advancements.dimensional_travel_adv.title": "Planes walker",
   "advancements.dimensional_travel_adv.descr": "Use netherite coin to travel to the nether",
   "item.markscoins.coin_platinum": "Platinum Coin",
+  "gui.markscoins.bank_gui.label_bank": "Balance",
   "item.markscoins.coin_wood": "Wood Coin",
   "block.markscoins.ore_coin": "Coin Ore",
   "item.markscoins.coin_stone": "Stone Coin",
@@ -14,6 +15,9 @@
   "advancements.wood_adv.title": "Economy",
   "item.markscoins.coin_diamond": "Diamond Coin",
   "item.markscoins.unbaked_coin": "Unbaked Coin",
+  "gui.markscoins.bank_gui.label_varmoney_disp": "\u003cVAR:balance_disp\u003e",
+  "gui.markscoins.bank_gui.label_deposit": "Deposit",
+  "key.markscoins.bank_key": "Open Bank",
   "advancements.emerald_adv.title": "Millionaire",
   "item.markscoins.coin_amethyst": "Amethyst Coin",
   "item.markscoins.coin_copper": "Copper Coin",
@@ -22,6 +26,8 @@
   "item.markscoins.coin_gold": "Gold Coin",
   "advancements.emerald_adv.descr": "Reach 1 Million WP",
   "advancements.netherite_adv.descr": "Reach 4 Million WP",
+  "gui.markscoins.bank_gui.button_take": "Take",
   "item.markscoins.coin_ruby": "Ruby Coin",
-  "advancements.netherite_adv.title": "Multi-Millionaire"
+  "advancements.netherite_adv.title": "Multi-Millionaire",
+  "gui.markscoins.bank_gui.label_withdraw": "Withdraw"
 }

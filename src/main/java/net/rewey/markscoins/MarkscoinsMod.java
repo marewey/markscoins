@@ -17,6 +17,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.rewey.markscoins.init.MarkscoinsModTabs;
+import net.rewey.markscoins.init.MarkscoinsModParticleTypes;
 import net.rewey.markscoins.init.MarkscoinsModItems;
 import net.rewey.markscoins.init.MarkscoinsModFeatures;
 import net.rewey.markscoins.init.MarkscoinsModBlocks;
@@ -51,6 +52,7 @@ public class MarkscoinsMod {
 
 		MarkscoinsModFeatures.REGISTRY.register(bus);
 
+		MarkscoinsModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder, BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {

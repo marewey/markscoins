@@ -67,6 +67,9 @@ public class MarkscoinsModVariables {
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.balance = original.balance;
+			clone.transfer = original.transfer;
+			clone.balance_disp = original.balance_disp;
+			clone.display = original.display;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -104,6 +107,9 @@ public class MarkscoinsModVariables {
 
 	public static class PlayerVariables {
 		public double balance = 0;
+		public double transfer = 0;
+		public String balance_disp = "\"\"";
+		public double display = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -113,12 +119,18 @@ public class MarkscoinsModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("balance", balance);
+			nbt.putDouble("transfer", transfer);
+			nbt.putString("balance_disp", balance_disp);
+			nbt.putDouble("display", display);
 			return nbt;
 		}
 
 		public void readNBT(Tag Tag) {
 			CompoundTag nbt = (CompoundTag) Tag;
 			balance = nbt.getDouble("balance");
+			transfer = nbt.getDouble("transfer");
+			balance_disp = nbt.getString("balance_disp");
+			display = nbt.getDouble("display");
 		}
 	}
 
@@ -144,6 +156,9 @@ public class MarkscoinsModVariables {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.balance = message.data.balance;
+					variables.transfer = message.data.transfer;
+					variables.balance_disp = message.data.balance_disp;
+					variables.display = message.data.display;
 				}
 			});
 			context.setPacketHandled(true);

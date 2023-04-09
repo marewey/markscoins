@@ -801,6 +801,7 @@
     {
       "name": "Safedimcmd",
       "type": "command",
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "safedimcmd",
@@ -1062,11 +1063,206 @@
         ]
       },
       "path": "~/loot_tables"
+    },
+    {
+      "name": "BankGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/network/BankGUISlotMessage.java",
+          "src/main/java/net/rewey/markscoins/network/BankGUIButtonMessage.java",
+          "src/main/java/net/rewey/markscoins/world/inventory/BankGUIMenu.java",
+          "src/main/java/net/rewey/markscoins/client/gui/BankGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "BankOut",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_out",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/BankOutProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "Bank",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/markscoins/particles/bank.json",
+          "src/main/java/net/rewey/markscoins/client/particle/BankParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "BankIn",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_in",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/BankInProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "Transfer",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transfer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/TransferProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "BankKeyOnKeyPressed",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_key_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/BankKeyOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "BankKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/network/BankKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "BankGUIValue",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_gui_value",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/BankGUIValueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
     }
   ],
   "variable_elements": [
     {
       "name": "balance",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "transfer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "balance_disp",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "display",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -1080,6 +1276,7 @@
       "advancements.dimensional_travel_adv.title": "Planes walker",
       "advancements.dimensional_travel_adv.descr": "Use netherite coin to travel to the nether",
       "item.markscoins.coin_platinum": "Platinum Coin",
+      "gui.markscoins.bank_gui.label_bank": "Balance",
       "item.markscoins.coin_wood": "Wood Coin",
       "block.markscoins.ore_coin": "Coin Ore",
       "item.markscoins.coin_stone": "Stone Coin",
@@ -1090,6 +1287,9 @@
       "advancements.wood_adv.title": "Economy",
       "item.markscoins.coin_diamond": "Diamond Coin",
       "item.markscoins.unbaked_coin": "Unbaked Coin",
+      "gui.markscoins.bank_gui.label_varmoney_disp": "\u003cVAR:balance_disp\u003e",
+      "gui.markscoins.bank_gui.label_deposit": "Deposit",
+      "key.markscoins.bank_key": "Open Bank",
       "advancements.emerald_adv.title": "Millionaire",
       "item.markscoins.coin_amethyst": "Amethyst Coin",
       "item.markscoins.coin_copper": "Copper Coin",
@@ -1098,8 +1298,10 @@
       "item.markscoins.coin_gold": "Gold Coin",
       "advancements.emerald_adv.descr": "Reach 1 Million WP",
       "advancements.netherite_adv.descr": "Reach 4 Million WP",
+      "gui.markscoins.bank_gui.button_take": "Take",
       "item.markscoins.coin_ruby": "Ruby Coin",
-      "advancements.netherite_adv.title": "Multi-Millionaire"
+      "advancements.netherite_adv.title": "Multi-Millionaire",
+      "gui.markscoins.bank_gui.label_withdraw": "Withdraw"
     }
   },
   "foldersRoot": {
