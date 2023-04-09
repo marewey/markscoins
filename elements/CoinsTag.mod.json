@@ -1,0 +1,51 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CoinWood"
+      },
+      {
+        "value": "CUSTOM:CoinStone"
+      },
+      {
+        "value": "CUSTOM:CoinCopper"
+      },
+      {
+        "value": "CUSTOM:CoinIron"
+      },
+      {
+        "value": "CUSTOM:CoinGold"
+      },
+      {
+        "value": "CUSTOM:CoinPlatinum"
+      },
+      {
+        "value": "CUSTOM:CoinAmethyst"
+      },
+      {
+        "value": "CUSTOM:CoinSapphire"
+      },
+      {
+        "value": "CUSTOM:CoinRuby"
+      },
+      {
+        "value": "CUSTOM:CoinDiamond"
+      },
+      {
+        "value": "CUSTOM:CoinEmerald"
+      },
+      {
+        "value": "CUSTOM:CoinNetherite"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "coins",
+    "namespace": "minecraft"
+  }
+}

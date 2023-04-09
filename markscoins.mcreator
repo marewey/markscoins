@@ -54,8 +54,8 @@
       "registry_name": "coin_iron",
       "metadata": {
         "files": [
-          "src/main/resources/assets/markscoins/models/item/coin_iron.json",
-          "src/main/java/net/rewey/markscoins/item/CoinIronItem.java"
+          "src/main/java/net/rewey/markscoins/item/CoinIronItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_iron.json"
         ]
       },
       "path": "~/items"
@@ -99,8 +99,8 @@
       "registry_name": "coin_amethyst",
       "metadata": {
         "files": [
-          "src/main/java/net/rewey/markscoins/item/CoinAmethystItem.java",
-          "src/main/resources/assets/markscoins/models/item/coin_amethyst.json"
+          "src/main/resources/assets/markscoins/models/item/coin_amethyst.json",
+          "src/main/java/net/rewey/markscoins/item/CoinAmethystItem.java"
         ]
       },
       "path": "~/items"
@@ -159,8 +159,8 @@
       "registry_name": "coin_emerald",
       "metadata": {
         "files": [
-          "src/main/java/net/rewey/markscoins/item/CoinEmeraldItem.java",
-          "src/main/resources/assets/markscoins/models/item/coin_emerald.json"
+          "src/main/resources/assets/markscoins/models/item/coin_emerald.json",
+          "src/main/java/net/rewey/markscoins/item/CoinEmeraldItem.java"
         ]
       },
       "path": "~/items"
@@ -174,8 +174,8 @@
       "registry_name": "coin_netherite",
       "metadata": {
         "files": [
-          "src/main/java/net/rewey/markscoins/item/CoinNetheriteItem.java",
-          "src/main/resources/assets/markscoins/models/item/coin_netherite.json"
+          "src/main/resources/assets/markscoins/models/item/coin_netherite.json",
+          "src/main/java/net/rewey/markscoins/item/CoinNetheriteItem.java"
         ]
       },
       "path": "~/items"
@@ -271,11 +271,11 @@
       "registry_name": "coin_plant",
       "metadata": {
         "files": [
-          "src/main/resources/assets/markscoins/models/block/coin_plant.json",
           "src/main/java/net/rewey/markscoins/block/CoinPlantBlock.java",
-          "src/main/java/net/rewey/markscoins/world/features/plants/CoinPlantFeature.java",
           "src/main/resources/assets/markscoins/models/item/coin_plant.json",
-          "src/main/resources/assets/markscoins/blockstates/coin_plant.json"
+          "src/main/java/net/rewey/markscoins/world/features/plants/CoinPlantFeature.java",
+          "src/main/resources/assets/markscoins/blockstates/coin_plant.json",
+          "src/main/resources/assets/markscoins/models/block/coin_plant.json"
         ]
       },
       "path": "~/blocks"
@@ -612,8 +612,8 @@
       "registry_name": "coin_frame",
       "metadata": {
         "files": [
-          "src/main/resources/assets/markscoins/models/item/coin_frame.json",
-          "src/main/java/net/rewey/markscoins/item/CoinFrameItem.java"
+          "src/main/java/net/rewey/markscoins/item/CoinFrameItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_frame.json"
         ]
       },
       "path": "~/items"
@@ -761,7 +761,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/recipes"
+      "path": "~/other"
     },
     {
       "name": "CoinTab",
@@ -772,7 +772,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/recipes"
+      "path": "~/other"
     },
     {
       "name": "SafeDim",
@@ -1041,9 +1041,9 @@
       "registry_name": "ore_coin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/markscoins/models/block/ore_coin.json",
           "src/main/java/net/rewey/markscoins/block/OreCoinBlock.java",
           "src/main/resources/assets/markscoins/blockstates/ore_coin.json",
+          "src/main/resources/assets/markscoins/models/block/ore_coin.json",
           "src/main/resources/assets/markscoins/models/item/ore_coin.json",
           "src/main/java/net/rewey/markscoins/world/features/ores/OreCoinFeature.java"
         ]
@@ -1072,12 +1072,13 @@
       "registry_name": "bank_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/rewey/markscoins/network/BankGUISlotMessage.java",
+          "src/main/java/net/rewey/markscoins/client/gui/BankGUIScreen.java",
           "src/main/java/net/rewey/markscoins/network/BankGUIButtonMessage.java",
-          "src/main/java/net/rewey/markscoins/world/inventory/BankGUIMenu.java",
-          "src/main/java/net/rewey/markscoins/client/gui/BankGUIScreen.java"
+          "src/main/java/net/rewey/markscoins/network/BankGUISlotMessage.java",
+          "src/main/java/net/rewey/markscoins/world/inventory/BankGUIMenu.java"
         ]
-      }
+      },
+      "path": "~/other"
     },
     {
       "name": "BankOut",
@@ -1126,7 +1127,8 @@
           "src/main/resources/assets/markscoins/particles/bank.json",
           "src/main/java/net/rewey/markscoins/client/particle/BankParticle.java"
         ]
-      }
+      },
+      "path": "~/other"
     },
     {
       "name": "BankIn",
@@ -1173,54 +1175,6 @@
       "path": "~/procedures"
     },
     {
-      "name": "BankKeyOnKeyPressed",
-      "type": "procedure",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bank_key_on_key_pressed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rewey/markscoins/procedures/BankKeyOnKeyPressedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/procedures"
-    },
-    {
-      "name": "BankKey",
-      "type": "keybind",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bank_key",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rewey/markscoins/network/BankKeyMessage.java"
-        ]
-      }
-    },
-    {
       "name": "BankGUIValue",
       "type": "procedure",
       "sortid": 68,
@@ -1240,6 +1194,167 @@
         ]
       },
       "path": "~/procedures"
+    },
+    {
+      "name": "ATM",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/markscoins/models/item/atm.json",
+          "src/main/resources/assets/markscoins/blockstates/atm.json",
+          "src/main/resources/assets/markscoins/models/block/atm.json",
+          "src/main/java/net/rewey/markscoins/block/ATMBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Grounded",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grounded",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/potion/GroundedMobEffect.java"
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "TPAccept",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_accept",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/TPAcceptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "TPRequest",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_request",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/TPRequestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "Tpa",
+      "type": "command",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/command/TpaCommand.java"
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "TPAcceptCMD",
+      "type": "command",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_accept_cmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/command/TPAcceptCMDCommand.java"
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "MakeATM",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_atm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/make_atm.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "CoinsTag",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coins_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/coins.json"
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "ATMAdv",
+      "type": "achievement",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/advancements/atm_adv.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "GroundCMD",
+      "type": "command",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ground_cmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/command/GroundCMDCommand.java"
+        ]
+      },
+      "path": "~/commands"
     }
   ],
   "variable_elements": [
@@ -1247,7 +1362,7 @@
       "name": "balance",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "4.0"
     },
     {
       "name": "transfer",
@@ -1266,33 +1381,47 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "tpa_request",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "tpa_state",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.markscoins.coin_netherite": "Netherite Coin",
+      "advancements.atm_adv.descr": "Use an ATM",
       "item.markscoins.coin_emerald": "Emerald Coin",
       "advancements.dimensional_travel_adv.title": "Planes walker",
       "advancements.dimensional_travel_adv.descr": "Use netherite coin to travel to the nether",
       "item.markscoins.coin_platinum": "Platinum Coin",
       "gui.markscoins.bank_gui.label_bank": "Balance",
+      "effect.markscoins.grounded": "Grounded",
       "item.markscoins.coin_wood": "Wood Coin",
-      "block.markscoins.ore_coin": "Coin Ore",
       "item.markscoins.coin_stone": "Stone Coin",
+      "block.markscoins.ore_coin": "Coin Ore",
       "itemGroup.tabcoin_tab": "Mark\u0027s Coin\u0027s",
       "item.markscoins.coin_iron": "Iron Coin",
       "block.markscoins.coin_plant": "Coin Flower",
       "advancements.wood_adv.descr": "Aquire your first coin",
-      "advancements.wood_adv.title": "Economy",
+      "advancements.wood_adv.title": "Shiny",
       "item.markscoins.coin_diamond": "Diamond Coin",
       "item.markscoins.unbaked_coin": "Unbaked Coin",
       "gui.markscoins.bank_gui.label_varmoney_disp": "\u003cVAR:balance_disp\u003e",
       "gui.markscoins.bank_gui.label_deposit": "Deposit",
-      "key.markscoins.bank_key": "Open Bank",
       "advancements.emerald_adv.title": "Millionaire",
       "item.markscoins.coin_amethyst": "Amethyst Coin",
       "item.markscoins.coin_copper": "Copper Coin",
+      "block.markscoins.atm": "ATM",
       "item.markscoins.coin_sapphire": "Sapphire Coin",
       "item.markscoins.coin_frame": "Coin Frame",
       "item.markscoins.coin_gold": "Gold Coin",
@@ -1301,6 +1430,7 @@
       "gui.markscoins.bank_gui.button_take": "Take",
       "item.markscoins.coin_ruby": "Ruby Coin",
       "advancements.netherite_adv.title": "Multi-Millionaire",
+      "advancements.atm_adv.title": "Economy",
       "gui.markscoins.bank_gui.label_withdraw": "Withdraw"
     }
   },
@@ -1333,6 +1463,10 @@
       },
       {
         "name": "commands",
+        "children": []
+      },
+      {
+        "name": "other",
         "children": []
       }
     ]

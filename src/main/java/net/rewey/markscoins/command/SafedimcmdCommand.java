@@ -1,6 +1,8 @@
 
 package net.rewey.markscoins.command;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.rewey.markscoins.procedures.SafeDimProcedure;
 
 import net.minecraftforge.fml.common.Mod;
@@ -17,20 +19,18 @@ import net.minecraft.commands.Commands;
 public class SafedimcmdCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("safedim")
+		event.getDispatcher().register(Commands.literal("safedim").requires(s -> s.hasPermission(1)).executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
 
-				.executes(arguments -> {
-					ServerLevel world = arguments.getSource().getLevel();
-					double x = arguments.getSource().getPosition().x();
-					double y = arguments.getSource().getPosition().y();
-					double z = arguments.getSource().getPosition().z();
-					Entity entity = arguments.getSource().getEntity();
-					if (entity == null)
-						entity = FakePlayerFactory.getMinecraft(world);
-					Direction direction = entity.getDirection();
-
-					SafeDimProcedure.execute(world, entity);
-					return 0;
-				}));
+			SafeDimProcedure.execute(world, entity);
+			return 0;
+		}));
 	}
 }

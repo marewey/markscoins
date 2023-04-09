@@ -23,7 +23,7 @@ public class CoinEmeraldItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("1,048,576 WP"));
+		list.add(new TextComponent("1,048,576 PC"));
 	}
 
 	@Override

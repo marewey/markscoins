@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "65,536 WP"
+      "65,536 PC"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

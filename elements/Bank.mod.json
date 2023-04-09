@@ -2,7 +2,7 @@
   "_fv": 39,
   "_type": "particle",
   "definition": {
-    "texture": "gold.png",
+    "texture": "bank.png",
     "animate": false,
     "frameDuration": 1,
     "width": 0.2,

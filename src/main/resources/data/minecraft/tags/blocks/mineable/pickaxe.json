@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "markscoins:ore_coin"
+    "markscoins:ore_coin",
+    "markscoins:atm"
   ]
 }

@@ -47,6 +47,7 @@ public class MarkscoinsModItems {
 	public static final RegistryObject<Item> UNBAKED_COIN = REGISTRY.register("unbaked_coin", () -> new UnbakedCoinItem());
 	public static final RegistryObject<Item> COIN_FRAME = REGISTRY.register("coin_frame", () -> new CoinFrameItem());
 	public static final RegistryObject<Item> ORE_COIN = block(MarkscoinsModBlocks.ORE_COIN, MarkscoinsModTabs.TAB_COIN_TAB);
+	public static final RegistryObject<Item> ATM = block(MarkscoinsModBlocks.ATM, MarkscoinsModTabs.TAB_COIN_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

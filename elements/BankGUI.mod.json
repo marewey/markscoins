@@ -29,7 +29,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "TAG:minecraft:coins"
           },
           "disablePlacement": {
             "fixedValue": false

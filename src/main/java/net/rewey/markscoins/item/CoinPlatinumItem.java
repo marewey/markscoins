@@ -21,6 +21,6 @@ public class CoinPlatinumItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("1,024 WP"));
+		list.add(new TextComponent("1,024 PC"));
 	}
 }

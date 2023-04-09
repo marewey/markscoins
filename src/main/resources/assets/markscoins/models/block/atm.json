@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "markscoins:blocks/atm_bottom",
+    "up": "markscoins:blocks/atm_top",
+    "north": "markscoins:blocks/atm_front",
+    "east": "markscoins:blocks/atm_side",
+    "south": "markscoins:blocks/atm_side",
+    "west": "markscoins:blocks/atm_side",
+    "particle": "markscoins:blocks/atm_bottom"
+  }
+}

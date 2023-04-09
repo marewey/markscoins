@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "markscoins:coin_gold"
+    },
+    "title": {
+      "translate": "advancements.atm_adv.title"
+    },
+    "description": {
+      "translate": "advancements.atm_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "atm_adv": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "markscoins:atm"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "markscoins:wood_adv"
+}

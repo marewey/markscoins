@@ -5,13 +5,13 @@
     "achievementName": "Planes walker",
     "achievementDescription": "Use netherite coin to travel to the nether",
     "achievementIcon": {
-      "value": "Blocks.PORTAL"
+      "value": "Blocks.LODESTONE"
     },
     "background": "Default",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": true,
+    "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",

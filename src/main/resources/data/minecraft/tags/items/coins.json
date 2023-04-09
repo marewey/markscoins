@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "markscoins:coin_ruby",
+    "markscoins:coin_iron",
+    "markscoins:coin_amethyst",
+    "markscoins:coin_sapphire",
+    "markscoins:coin_diamond",
+    "markscoins:coin_gold",
+    "markscoins:coin_emerald",
+    "markscoins:coin_platinum",
+    "markscoins:coin_copper",
+    "markscoins:coin_netherite",
+    "markscoins:coin_wood",
+    "markscoins:coin_stone"
+  ]
+}

@@ -70,7 +70,9 @@ public class MarkscoinsModVariables {
 			clone.transfer = original.transfer;
 			clone.balance_disp = original.balance_disp;
 			clone.display = original.display;
+			clone.tpa_request = original.tpa_request;
 			if (!event.isWasDeath()) {
+				clone.tpa_state = original.tpa_state;
 			}
 		}
 	}
@@ -106,10 +108,12 @@ public class MarkscoinsModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double balance = 0;
+		public double balance = 4.0;
 		public double transfer = 0;
 		public String balance_disp = "\"\"";
 		public double display = 0;
+		public String tpa_request = "\"\"";
+		public boolean tpa_state = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -122,6 +126,8 @@ public class MarkscoinsModVariables {
 			nbt.putDouble("transfer", transfer);
 			nbt.putString("balance_disp", balance_disp);
 			nbt.putDouble("display", display);
+			nbt.putString("tpa_request", tpa_request);
+			nbt.putBoolean("tpa_state", tpa_state);
 			return nbt;
 		}
 
@@ -131,6 +137,8 @@ public class MarkscoinsModVariables {
 			transfer = nbt.getDouble("transfer");
 			balance_disp = nbt.getString("balance_disp");
 			display = nbt.getDouble("display");
+			tpa_request = nbt.getString("tpa_request");
+			tpa_state = nbt.getBoolean("tpa_state");
 		}
 	}
 
@@ -159,6 +167,8 @@ public class MarkscoinsModVariables {
 					variables.transfer = message.data.transfer;
 					variables.balance_disp = message.data.balance_disp;
 					variables.display = message.data.display;
+					variables.tpa_request = message.data.tpa_request;
+					variables.tpa_state = message.data.tpa_state;
 				}
 			});
 			context.setPacketHandled(true);

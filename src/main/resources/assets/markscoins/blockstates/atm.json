@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "markscoins:block/atm"
+    },
+    "facing=east": {
+      "model": "markscoins:block/atm",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "markscoins:block/atm",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "markscoins:block/atm",
+      "y": 270
+    }
+  }
+}
