@@ -799,20 +799,6 @@
       "path": "~/procedures"
     },
     {
-      "name": "Safedimcmd",
-      "type": "command",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "safedimcmd",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rewey/markscoins/command/SafedimcmdCommand.java"
-        ]
-      },
-      "path": "~/commands"
-    },
-    {
       "name": "CoinAmethystRightclickedOnBlock",
       "type": "procedure",
       "sortid": 50,
@@ -1072,49 +1058,12 @@
       "registry_name": "bank_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/rewey/markscoins/client/gui/BankGUIScreen.java",
           "src/main/java/net/rewey/markscoins/network/BankGUIButtonMessage.java",
-          "src/main/java/net/rewey/markscoins/network/BankGUISlotMessage.java",
-          "src/main/java/net/rewey/markscoins/world/inventory/BankGUIMenu.java"
+          "src/main/java/net/rewey/markscoins/world/inventory/BankGUIMenu.java",
+          "src/main/java/net/rewey/markscoins/client/gui/BankGUIScreen.java"
         ]
       },
       "path": "~/other"
-    },
-    {
-      "name": "BankOut",
-      "type": "procedure",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bank_out",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rewey/markscoins/procedures/BankOutProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/procedures"
     },
     {
       "name": "Bank",
@@ -1145,6 +1094,18 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
@@ -1204,9 +1165,9 @@
       "registry_name": "atm",
       "metadata": {
         "files": [
-          "src/main/resources/assets/markscoins/models/item/atm.json",
           "src/main/resources/assets/markscoins/blockstates/atm.json",
           "src/main/resources/assets/markscoins/models/block/atm.json",
+          "src/main/resources/assets/markscoins/models/item/atm.json",
           "src/main/java/net/rewey/markscoins/block/ATMBlock.java"
         ]
       },
@@ -1446,6 +1407,59 @@
         ]
       },
       "path": "~/procedures"
+    },
+    {
+      "name": "USAAnthem",
+      "type": "musicdisc",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usa_anthem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/USAAnthemItem.java",
+          "src/main/resources/assets/markscoins/models/item/usa_anthem.json"
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "Balance",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/BalanceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "BalanceCMD",
+      "type": "command",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balance_cmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/command/BalanceCMDCommand.java"
+        ]
+      },
+      "path": "~/commands"
     }
   ],
   "variable_elements": [
@@ -1488,34 +1502,45 @@
   ],
   "sound_elements": [
     {
+      "name": "usa_anthem_song",
+      "files": [
+        "star_spangled_banner"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
       "name": "hog-ghost",
       "files": [
         "tom_macdonald_-_ghost"
       ],
-      "category": "music",
+      "category": "record",
       "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "item.markscoins.coin_netherite": "Netherite Coin",
+      "subtitles.usa_anthem_song": "",
       "advancements.atm_adv.descr": "Use an ATM",
       "item.markscoins.coin_emerald": "Emerald Coin",
       "advancements.dimensional_travel_adv.title": "Planes walker",
       "advancements.dimensional_travel_adv.descr": "Use netherite coin to travel to the nether",
-      "effect.markscoins.grounded": "Grounded",
-      "gui.markscoins.bank_gui.label_bank": "Balance",
       "item.markscoins.coin_platinum": "Platinum Coin",
+      "gui.markscoins.bank_gui.label_bank": "Balance",
+      "effect.markscoins.grounded": "Grounded",
       "item.markscoins.coin_wood": "Wood Coin",
       "item.markscoins.coin_stone": "Stone Coin",
       "block.markscoins.ore_coin": "Coin Ore",
-      "itemGroup.tabcoin_tab": "Mark\u0027s Coin\u0027s",
+      "itemGroup.tabcoin_tab": "Mark\u0027s Coins",
       "item.markscoins.tommac": "Ghost",
       "item.markscoins.coin_iron": "Iron Coin",
       "item.markscoins.tommac.desc": "HOG - Ghost",
       "block.markscoins.coin_plant": "Coin Flower",
       "advancements.wood_adv.descr": "Aquire your first coin",
-      "advancements.wood_adv.title": "Shiny",
+      "item.markscoins.usa_anthem.desc": "Star Spangled Banner - Francis Scott Key",
+      "advancements.wood_adv.title": "Shiny Penny",
+      "item.markscoins.usa_anthem": "USA National Anthem",
       "item.markscoins.coin_diamond": "Diamond Coin",
       "item.markscoins.unbaked_coin": "Unbaked Coin",
       "gui.markscoins.bank_gui.label_varmoney_disp": "\u003cVAR:balance_disp\u003e",

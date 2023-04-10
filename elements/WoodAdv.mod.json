@@ -2,7 +2,7 @@
   "_fv": 39,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Shiny",
+    "achievementName": "Shiny Penny",
     "achievementDescription": "Aquire your first coin",
     "achievementIcon": {
       "value": "CUSTOM:CoinWood"

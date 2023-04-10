@@ -5,6 +5,7 @@
 package net.rewey.markscoins.init;
 
 import net.rewey.markscoins.item.UnbakedCoinItem;
+import net.rewey.markscoins.item.USAAnthemItem;
 import net.rewey.markscoins.item.TommacItem;
 import net.rewey.markscoins.item.CoinWoodItem;
 import net.rewey.markscoins.item.CoinStoneItem;
@@ -44,13 +45,14 @@ public class MarkscoinsModItems {
 	public static final RegistryObject<Item> COIN_DIAMOND = REGISTRY.register("coin_diamond", () -> new CoinDiamondItem());
 	public static final RegistryObject<Item> COIN_EMERALD = REGISTRY.register("coin_emerald", () -> new CoinEmeraldItem());
 	public static final RegistryObject<Item> COIN_NETHERITE = REGISTRY.register("coin_netherite", () -> new CoinNetheriteItem());
-	public static final RegistryObject<Item> COIN_PLANT = block(MarkscoinsModBlocks.COIN_PLANT, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> COIN_PLANT = block(MarkscoinsModBlocks.COIN_PLANT, MarkscoinsModTabs.TAB_COIN_TAB);
 	public static final RegistryObject<Item> UNBAKED_COIN = REGISTRY.register("unbaked_coin", () -> new UnbakedCoinItem());
 	public static final RegistryObject<Item> COIN_FRAME = REGISTRY.register("coin_frame", () -> new CoinFrameItem());
 	public static final RegistryObject<Item> ORE_COIN = block(MarkscoinsModBlocks.ORE_COIN, MarkscoinsModTabs.TAB_COIN_TAB);
 	public static final RegistryObject<Item> ATM = block(MarkscoinsModBlocks.ATM, MarkscoinsModTabs.TAB_COIN_TAB);
 	public static final RegistryObject<Item> TOMMAC = REGISTRY.register("tommac", () -> new TommacItem());
 	public static final RegistryObject<Item> ORE_COIN_DEEPSLATE = block(MarkscoinsModBlocks.ORE_COIN_DEEPSLATE, MarkscoinsModTabs.TAB_COIN_TAB);
+	public static final RegistryObject<Item> USA_ANTHEM = REGISTRY.register("usa_anthem", () -> new USAAnthemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

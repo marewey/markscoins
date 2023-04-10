@@ -13,7 +13,7 @@
         "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.GLASS_PANE"
+        "value": "Blocks.STONE"
       },
       {
         "value": "Blocks.COBBLESTONE"
@@ -28,13 +28,13 @@
         "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.STONE"
-      },
-      {
         "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.ENDER_CHEST"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
       }
     ],
     "recipeReturnStack": {

@@ -1,6 +1,15 @@
 {
+  "usa_anthem_song": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "markscoins:star_spangled_banner",
+        "stream": true
+      }
+    ]
+  },
   "hog-ghost": {
-    "category": "music",
+    "category": "record",
     "sounds": [
       {
         "name": "markscoins:tom_macdonald_-_ghost",

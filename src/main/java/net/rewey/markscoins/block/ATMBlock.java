@@ -4,8 +4,12 @@ package net.rewey.markscoins.block;
 import org.checkerframework.checker.units.qual.s;
 
 import net.rewey.markscoins.world.inventory.BankGUIMenu;
+import net.rewey.markscoins.init.MarkscoinsModBlocks;
 
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.client.event.ColorHandlerEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -36,6 +40,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
 
 import java.util.List;
 import java.util.Collections;
@@ -105,5 +110,12 @@ public class ATMBlock extends Block {
 			}, pos);
 		}
 		return InteractionResult.SUCCESS;
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void blockColorLoad(ColorHandlerEvent.Block event) {
+		event.getBlockColors().register((bs, world, pos, index) -> {
+			return world != null && pos != null ? Minecraft.getInstance().level.getBiome(pos).value().getFogColor() : 12638463;
+		}, MarkscoinsModBlocks.ATM.get());
 	}
 }

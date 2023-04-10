@@ -10,7 +10,7 @@
       "item": "minecraft:cobblestone"
     },
     "1": {
-      "item": "minecraft:glass_pane"
+      "tag": "forge:stone"
     },
     "2": {
       "item": "minecraft:cobblestone"
@@ -25,13 +25,13 @@
       "item": "minecraft:cobblestone"
     },
     "6": {
-      "tag": "forge:stone"
-    },
-    "7": {
       "item": "minecraft:cobblestone"
     },
+    "7": {
+      "item": "minecraft:ender_chest"
+    },
     "8": {
-      "tag": "forge:stone"
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {

@@ -39,9 +39,6 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "onSlotChanged": {
-            "name": "BankIn"
-          },
           "x": 150,
           "y": 79
         }
@@ -54,9 +51,6 @@
             "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
-          "onTakenFromSlot": {
-            "name": "BankOut"
-          },
           "x": 258,
           "y": 80
         }
@@ -132,7 +126,7 @@
       }
     ],
     "onTick": {
-      "name": "BankOut"
+      "name": "BankIn"
     },
     "gridSettings": {
       "sx": 18,

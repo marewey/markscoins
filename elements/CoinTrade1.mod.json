@@ -129,7 +129,7 @@
               "value": "CUSTOM:CoinGold"
             },
             "countOffer": 1,
-            "level": 1,
+            "level": 2,
             "maxTrades": 10,
             "xp": 5,
             "priceMultiplier": 0.05
@@ -147,7 +147,7 @@
               "value": "Items.GUNPOWDER"
             },
             "countOffer": 1,
-            "level": 1,
+            "level": 2,
             "maxTrades": 10,
             "xp": 5,
             "priceMultiplier": 0.05
@@ -198,7 +198,7 @@
             },
             "countPrice2": 1,
             "offer": {
-              "value": "CUSTOM:Tommac"
+              "value": "CUSTOM:USAAnthem"
             },
             "countOffer": 1,
             "level": 1,
@@ -237,8 +237,26 @@
               "value": "CUSTOM:CoinGold"
             },
             "countOffer": 6,
-            "level": 1,
+            "level": 3,
             "maxTrades": 3,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CoinAmethyst"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": "CUSTOM:CoinPlatinum"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:Tommac"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 2,
             "xp": 5,
             "priceMultiplier": 0.05
           }
@@ -370,7 +388,7 @@
               "value": "Items.IRON_AXE"
             },
             "countOffer": 1,
-            "level": 1,
+            "level": 2,
             "maxTrades": 10,
             "xp": 5,
             "priceMultiplier": 0.05
@@ -420,19 +438,116 @@
         "entries": [
           {
             "price1": {
-              "value": "CUSTOM:CoinIron"
+              "value": "CUSTOM:CoinPlatinum"
             },
             "countPrice1": 1,
             "price2": {
-              "value": ""
+              "value": "CUSTOM:CoinGold"
             },
-            "countPrice2": 1,
+            "countPrice2": 2,
             "offer": {
               "value": "Items.ENCHANTED_BOOK"
             },
             "countOffer": 1,
             "level": 1,
             "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.BOOK"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CoinCopper"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CoinIron"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.BOOKSHELF"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CoinAmethyst"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": "CUSTOM:CoinPlatinum"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 4,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.ROTTEN_FLESH"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CoinCopper"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 9,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.REDSTONE"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CoinCopper"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 8,
             "xp": 5,
             "priceMultiplier": 0.05
           }

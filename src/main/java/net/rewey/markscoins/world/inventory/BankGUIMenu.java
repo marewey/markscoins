@@ -1,10 +1,8 @@
 
 package net.rewey.markscoins.world.inventory;
 
-import net.rewey.markscoins.procedures.BankOutProcedure;
-import net.rewey.markscoins.network.BankGUISlotMessage;
+import net.rewey.markscoins.procedures.BankInProcedure;
 import net.rewey.markscoins.init.MarkscoinsModMenus;
-import net.rewey.markscoins.MarkscoinsMod;
 
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
@@ -86,12 +84,6 @@ public class BankGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 43) {
 			@Override
-			public void setChanged() {
-				super.setChanged();
-				slotChanged(0, 0, 0);
-			}
-
-			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return stack.is(ItemTags.create(new ResourceLocation("minecraft:coins")));
 			}
@@ -100,12 +92,6 @@ public class BankGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 			@Override
 			public boolean mayPickup(Player entity) {
 				return false;
-			}
-
-			@Override
-			public void onTake(Player entity, ItemStack stack) {
-				super.onTake(entity, stack);
-				slotChanged(1, 1, 0);
 			}
 
 			@Override
@@ -262,13 +248,6 @@ public class BankGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}
 	}
 
-	private void slotChanged(int slotid, int ctype, int meta) {
-		if (this.world != null && this.world.isClientSide()) {
-			MarkscoinsMod.PACKET_HANDLER.sendToServer(new BankGUISlotMessage(slotid, x, y, z, ctype, meta));
-			BankGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
-		}
-	}
-
 	public Map<Integer, Slot> get() {
 		return customSlots;
 	}
@@ -282,7 +261,7 @@ public class BankGUIMenu extends AbstractContainerMenu implements Supplier<Map<I
 			double y = entity.getY();
 			double z = entity.getZ();
 
-			BankOutProcedure.execute(world, x, y, z, entity);
+			BankInProcedure.execute(world, x, y, z, entity);
 		}
 	}
 }
