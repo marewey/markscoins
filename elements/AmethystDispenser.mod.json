@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:CoinAmethyst"
+    },
+    "enableFuel": false,
+    "fuelPower": {
+      "fixedValue": 1600.0
+    },
+    "hasDispenseBehavior": true,
+    "dispenseSuccessCondition": {
+      "name": "AmethystDispenserDispenseSuccessfullyIf"
+    },
+    "dispenseResultItemstack": {
+      "name": "AmethystDispenserOnDispenseAttemptWithResult"
+    },
+    "compostLayerChance": 0.0
+  }
+}

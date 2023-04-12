@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Millionaire",
-    "achievementDescription": "Reach 1 Million WP",
+    "achievementDescription": "Reach 1 Million PC",
     "achievementIcon": {
       "value": "CUSTOM:CoinEmerald"
     },

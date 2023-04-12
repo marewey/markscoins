@@ -438,42 +438,6 @@
         "entries": [
           {
             "price1": {
-              "value": "CUSTOM:CoinPlatinum"
-            },
-            "countPrice1": 1,
-            "price2": {
-              "value": "CUSTOM:CoinGold"
-            },
-            "countPrice2": 2,
-            "offer": {
-              "value": "Items.ENCHANTED_BOOK"
-            },
-            "countOffer": 1,
-            "level": 1,
-            "maxTrades": 10,
-            "xp": 5,
-            "priceMultiplier": 0.05
-          },
-          {
-            "price1": {
-              "value": "Items.BOOK"
-            },
-            "countPrice1": 4,
-            "price2": {
-              "value": ""
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "CUSTOM:CoinCopper"
-            },
-            "countOffer": 2,
-            "level": 1,
-            "maxTrades": 10,
-            "xp": 5,
-            "priceMultiplier": 0.05
-          },
-          {
-            "price1": {
               "value": "CUSTOM:CoinIron"
             },
             "countPrice1": 2,
@@ -548,6 +512,24 @@
             "countOffer": 2,
             "level": 1,
             "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CoinSapphire"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "Blocks.BREWING_STAND"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 3,
             "xp": 5,
             "priceMultiplier": 0.05
           }

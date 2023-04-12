@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Multi-Millionaire",
-    "achievementDescription": "Reach 4 Million WP",
+    "achievementDescription": "Reach 4 Million PC",
     "achievementIcon": {
       "value": "CUSTOM:CoinNetherite"
     },

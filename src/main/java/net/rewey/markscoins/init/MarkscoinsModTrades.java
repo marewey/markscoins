@@ -91,10 +91,6 @@ public class MarkscoinsModTrades {
 					new ItemStack(Items.COOKED_CHICKEN, 2), 10, 5, 0.05f));
 		}
 		if (event.getType() == VillagerProfession.LIBRARIAN) {
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_PLATINUM.get()), new ItemStack(MarkscoinsModItems.COIN_GOLD.get(), 2), new ItemStack(Items.ENCHANTED_BOOK), 10, 5, 0.05f));
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.BOOK, 4),
-
-					new ItemStack(MarkscoinsModItems.COIN_COPPER.get(), 2), 10, 5, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_IRON.get(), 2),
 
 					new ItemStack(Blocks.BOOKSHELF), 10, 5, 0.05f));
@@ -107,6 +103,9 @@ public class MarkscoinsModTrades {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.REDSTONE, 16),
 
 					new ItemStack(MarkscoinsModItems.COIN_COPPER.get(), 2), 8, 5, 0.05f));
+			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_SAPPHIRE.get()),
+
+					new ItemStack(Blocks.BREWING_STAND), 3, 5, 0.05f));
 		}
 	}
 }

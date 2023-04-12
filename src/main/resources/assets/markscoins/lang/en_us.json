@@ -3,6 +3,7 @@
   "subtitles.usa_anthem_song": "",
   "advancements.atm_adv.descr": "Use an ATM",
   "item.markscoins.coin_emerald": "Emerald Coin",
+  "advancements.coin_flower_adv.title": "Flower o\u0027 Coin",
   "advancements.dimensional_travel_adv.title": "Planes walker",
   "advancements.dimensional_travel_adv.descr": "Use netherite coin to travel to the nether",
   "item.markscoins.coin_platinum": "Platinum Coin",
@@ -11,6 +12,7 @@
   "item.markscoins.coin_wood": "Wood Coin",
   "item.markscoins.coin_stone": "Stone Coin",
   "block.markscoins.ore_coin": "Coin Ore",
+  "advancements.coin_flower_adv.descr": "Aquire coins from a flower",
   "itemGroup.tabcoin_tab": "Mark\u0027s Coins",
   "item.markscoins.tommac": "Ghost",
   "item.markscoins.coin_iron": "Iron Coin",
@@ -32,12 +34,14 @@
   "item.markscoins.coin_sapphire": "Sapphire Coin",
   "item.markscoins.coin_frame": "Coin Frame",
   "item.markscoins.coin_gold": "Gold Coin",
-  "advancements.emerald_adv.descr": "Reach 1 Million WP",
-  "advancements.netherite_adv.descr": "Reach 4 Million WP",
+  "advancements.emerald_adv.descr": "Reach 1 Million PC",
+  "advancements.netherite_adv.descr": "Reach 4 Million PC",
   "gui.markscoins.bank_gui.button_take": "Take",
   "item.markscoins.coin_ruby": "Ruby Coin",
   "subtitles.hog-ghost": "",
+  "advancements.usa_adv.descr": "Buy a disc with the Star Spangled Banner from a wandering trader",
   "advancements.netherite_adv.title": "Multi-Millionaire",
   "advancements.atm_adv.title": "Economy",
-  "gui.markscoins.bank_gui.label_withdraw": "Withdraw"
+  "gui.markscoins.bank_gui.label_withdraw": "Withdraw",
+  "advancements.usa_adv.title": "\u0027Merica"
 }

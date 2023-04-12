@@ -65,7 +65,7 @@ public class CoinPlantBlock extends FlowerBlock {
 
 	@Override
 	public BlockPathTypes getAiPathNodeType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
-		return BlockPathTypes.DANGER_OTHER;
+		return BlockPathTypes.LAVA;
 	}
 
 	@Override

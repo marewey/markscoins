@@ -73,7 +73,7 @@
       "value": ""
     },
     "offsetType": "XZ",
-    "aiPathNodeType": "DANGER_OTHER",
+    "aiPathNodeType": "LAVA",
     "flammability": 100,
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,

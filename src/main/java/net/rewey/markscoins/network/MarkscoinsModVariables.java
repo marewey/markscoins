@@ -108,7 +108,7 @@ public class MarkscoinsModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double balance = 4.0;
+		public double balance = 10.0;
 		public double transfer = 0;
 		public String balance_disp = "\"\"";
 		public double display = 0;

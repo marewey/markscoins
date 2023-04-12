@@ -159,8 +159,8 @@
       "registry_name": "coin_emerald",
       "metadata": {
         "files": [
-          "src/main/resources/assets/markscoins/models/item/coin_emerald.json",
-          "src/main/java/net/rewey/markscoins/item/CoinEmeraldItem.java"
+          "src/main/java/net/rewey/markscoins/item/CoinEmeraldItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_emerald.json"
         ]
       },
       "path": "~/items"
@@ -174,8 +174,8 @@
       "registry_name": "coin_netherite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/markscoins/models/item/coin_netherite.json",
-          "src/main/java/net/rewey/markscoins/item/CoinNetheriteItem.java"
+          "src/main/java/net/rewey/markscoins/item/CoinNetheriteItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_netherite.json"
         ]
       },
       "path": "~/items"
@@ -755,6 +755,7 @@
     {
       "name": "BurnWoodCoin",
       "type": "itemextension",
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "burn_wood_coin",
@@ -1460,6 +1461,137 @@
         ]
       },
       "path": "~/commands"
+    },
+    {
+      "name": "USAAdv",
+      "type": "achievement",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usa_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/advancements/usa_adv.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "CoinFlowerAdv",
+      "type": "achievement",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_flower_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/advancements/coin_flower_adv.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "Flesh2Leather",
+      "type": "itemextension",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_2_leather",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "AmethystDispenser",
+      "type": "itemextension",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_dispenser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/extension/AmethystDispenserItemExtension.java"
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "AmethystDispenserOnDispenseAttemptWithResult",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_dispenser_on_dispense_attempt_with_result",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/AmethystDispenserOnDispenseAttemptWithResultProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "AmethystDispenserDispenseSuccessfullyIf",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_dispenser_dispense_successfully_if",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/AmethystDispenserDispenseSuccessfullyIfProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
     }
   ],
   "variable_elements": [
@@ -1467,7 +1599,7 @@
       "name": "balance",
       "type": "number",
       "scope": "player_persistent",
-      "value": "4.0"
+      "value": "10.0"
     },
     {
       "name": "transfer",
@@ -1524,6 +1656,7 @@
       "subtitles.usa_anthem_song": "",
       "advancements.atm_adv.descr": "Use an ATM",
       "item.markscoins.coin_emerald": "Emerald Coin",
+      "advancements.coin_flower_adv.title": "Flower o\u0027 Coin",
       "advancements.dimensional_travel_adv.title": "Planes walker",
       "advancements.dimensional_travel_adv.descr": "Use netherite coin to travel to the nether",
       "item.markscoins.coin_platinum": "Platinum Coin",
@@ -1532,6 +1665,7 @@
       "item.markscoins.coin_wood": "Wood Coin",
       "item.markscoins.coin_stone": "Stone Coin",
       "block.markscoins.ore_coin": "Coin Ore",
+      "advancements.coin_flower_adv.descr": "Aquire coins from a flower",
       "itemGroup.tabcoin_tab": "Mark\u0027s Coins",
       "item.markscoins.tommac": "Ghost",
       "item.markscoins.coin_iron": "Iron Coin",
@@ -1553,14 +1687,16 @@
       "item.markscoins.coin_sapphire": "Sapphire Coin",
       "item.markscoins.coin_frame": "Coin Frame",
       "item.markscoins.coin_gold": "Gold Coin",
-      "advancements.emerald_adv.descr": "Reach 1 Million WP",
-      "advancements.netherite_adv.descr": "Reach 4 Million WP",
+      "advancements.emerald_adv.descr": "Reach 1 Million PC",
+      "advancements.netherite_adv.descr": "Reach 4 Million PC",
       "gui.markscoins.bank_gui.button_take": "Take",
       "item.markscoins.coin_ruby": "Ruby Coin",
       "subtitles.hog-ghost": "",
+      "advancements.usa_adv.descr": "Buy a disc with the Star Spangled Banner from a wandering trader",
       "advancements.netherite_adv.title": "Multi-Millionaire",
       "advancements.atm_adv.title": "Economy",
-      "gui.markscoins.bank_gui.label_withdraw": "Withdraw"
+      "gui.markscoins.bank_gui.label_withdraw": "Withdraw",
+      "advancements.usa_adv.title": "\u0027Merica"
     }
   },
   "foldersRoot": {
