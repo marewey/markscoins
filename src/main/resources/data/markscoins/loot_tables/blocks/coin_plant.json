@@ -11,7 +11,7 @@
         {
           "type": "minecraft:item",
           "name": "markscoins:coin_wood",
-          "weight": 64,
+          "weight": 128,
           "functions": [
             {
               "function": "set_count",
@@ -25,7 +25,7 @@
         {
           "type": "minecraft:item",
           "name": "markscoins:coin_stone",
-          "weight": 16,
+          "weight": 64,
           "functions": [
             {
               "function": "set_count",
@@ -39,7 +39,7 @@
         {
           "type": "minecraft:item",
           "name": "markscoins:coin_copper",
-          "weight": 8,
+          "weight": 16,
           "functions": [
             {
               "function": "set_count",
@@ -80,20 +80,6 @@
               "function": "minecraft:apply_bonus",
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:ore_drops"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "markscoins:coin_platinum",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
             }
           ]
         }

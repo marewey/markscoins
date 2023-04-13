@@ -45,7 +45,7 @@ public class OreCoinFeature extends OreFeature {
 		FEATURE = new OreCoinFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("markscoins:ore_coin", FEATURE, new OreConfiguration(OreCoinFeatureRuleTest.INSTANCE, MarkscoinsModBlocks.ORE_COIN.get().defaultBlockState(), 8));
 		PLACED_FEATURE = PlacementUtils.register("markscoins:ore_coin", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(3), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(16)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(3), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(27)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

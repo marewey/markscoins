@@ -43,9 +43,9 @@ public class OreCoinDeepslateFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new OreCoinDeepslateFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("markscoins:ore_coin_deepslate", FEATURE, new OreConfiguration(OreCoinDeepslateFeatureRuleTest.INSTANCE, MarkscoinsModBlocks.ORE_COIN_DEEPSLATE.get().defaultBlockState(), 8));
+		CONFIGURED_FEATURE = FeatureUtils.register("markscoins:ore_coin_deepslate", FEATURE, new OreConfiguration(OreCoinDeepslateFeatureRuleTest.INSTANCE, MarkscoinsModBlocks.ORE_COIN_DEEPSLATE.get().defaultBlockState(), 10));
 		PLACED_FEATURE = PlacementUtils.register("markscoins:ore_coin_deepslate", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(3), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(0)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(-63), VerticalAnchor.absolute(0)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

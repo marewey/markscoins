@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:CoinWood"
             },
-            "weight": 64,
+            "weight": 128,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -30,7 +30,7 @@
             "item": {
               "value": "CUSTOM:CoinStone"
             },
-            "weight": 16,
+            "weight": 64,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -44,7 +44,7 @@
             "item": {
               "value": "CUSTOM:CoinCopper"
             },
-            "weight": 8,
+            "weight": 16,
             "minCount": 1,
             "maxCount": 2,
             "minEnchantmentLevel": 0,
@@ -78,20 +78,6 @@
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:CoinPlatinum"
-            },
-            "weight": 1,
-            "minCount": 0,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
           }

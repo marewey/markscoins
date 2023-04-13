@@ -72,7 +72,7 @@
             "item": {
               "value": "CUSTOM:CoinPlatinum"
             },
-            "weight": 2,
+            "weight": 8,
             "minCount": 0,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

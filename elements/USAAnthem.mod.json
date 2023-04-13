@@ -2,7 +2,7 @@
   "_fv": 39,
   "_type": "musicdisc",
   "definition": {
-    "name": "USA National Anthem",
+    "name": "Star Spangled Banner",
     "texture": "usadisk",
     "description": "Star Spangled Banner - Francis Scott Key",
     "creativeTab": {
@@ -11,7 +11,7 @@
     "specialInfo": [],
     "hasGlow": true,
     "music": {
-      "value": "CUSTOM:usa_anthem_song"
+      "value": "CUSTOM:us-anthem"
     },
     "lengthInTicks": 100,
     "analogOutput": 13

@@ -54,8 +54,8 @@
       "registry_name": "coin_iron",
       "metadata": {
         "files": [
-          "src/main/java/net/rewey/markscoins/item/CoinIronItem.java",
-          "src/main/resources/assets/markscoins/models/item/coin_iron.json"
+          "src/main/resources/assets/markscoins/models/item/coin_iron.json",
+          "src/main/java/net/rewey/markscoins/item/CoinIronItem.java"
         ]
       },
       "path": "~/items"
@@ -99,8 +99,8 @@
       "registry_name": "coin_amethyst",
       "metadata": {
         "files": [
-          "src/main/resources/assets/markscoins/models/item/coin_amethyst.json",
-          "src/main/java/net/rewey/markscoins/item/CoinAmethystItem.java"
+          "src/main/java/net/rewey/markscoins/item/CoinAmethystItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_amethyst.json"
         ]
       },
       "path": "~/items"
@@ -612,8 +612,8 @@
       "registry_name": "coin_frame",
       "metadata": {
         "files": [
-          "src/main/java/net/rewey/markscoins/item/CoinFrameItem.java",
-          "src/main/resources/assets/markscoins/models/item/coin_frame.json"
+          "src/main/resources/assets/markscoins/models/item/coin_frame.json",
+          "src/main/java/net/rewey/markscoins/item/CoinFrameItem.java"
         ]
       },
       "path": "~/items"
@@ -984,60 +984,6 @@
       "path": "~/procedures"
     },
     {
-      "name": "OreCoinBlockIsPlacedBy",
-      "type": "procedure",
-      "sortid": 57,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ore_coin_block_is_placed_by",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rewey/markscoins/procedures/OreCoinBlockIsPlacedByProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/procedures"
-    },
-    {
-      "name": "OreCoin",
-      "type": "block",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ore_coin",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rewey/markscoins/block/OreCoinBlock.java",
-          "src/main/resources/assets/markscoins/blockstates/ore_coin.json",
-          "src/main/resources/assets/markscoins/models/block/ore_coin.json",
-          "src/main/resources/assets/markscoins/models/item/ore_coin.json",
-          "src/main/java/net/rewey/markscoins/world/features/ores/OreCoinFeature.java"
-        ]
-      },
-      "path": "~/blocks"
-    },
-    {
       "name": "OreCoinTable",
       "type": "loottable",
       "sortid": 59,
@@ -1345,24 +1291,6 @@
       "path": "~/other"
     },
     {
-      "name": "OreCoinDeepslate",
-      "type": "block",
-      "sortid": 78,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ore_coin_deepslate",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rewey/markscoins/block/OreCoinDeepslateBlock.java",
-          "src/main/java/net/rewey/markscoins/world/features/ores/OreCoinDeepslateFeature.java",
-          "src/main/resources/assets/markscoins/blockstates/ore_coin_deepslate.json",
-          "src/main/resources/assets/markscoins/models/block/ore_coin_deepslate.json",
-          "src/main/resources/assets/markscoins/models/item/ore_coin_deepslate.json"
-        ]
-      },
-      "path": "~/blocks"
-    },
-    {
       "name": "OreCoinDeepslateTable",
       "type": "loottable",
       "sortid": 80,
@@ -1592,6 +1520,42 @@
         ]
       },
       "path": "~/procedures"
+    },
+    {
+      "name": "OreCoin",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/markscoins/models/block/ore_coin.json",
+          "src/main/java/net/rewey/markscoins/block/OreCoinBlock.java",
+          "src/main/resources/assets/markscoins/blockstates/ore_coin.json",
+          "src/main/resources/assets/markscoins/models/item/ore_coin.json",
+          "src/main/java/net/rewey/markscoins/world/features/ores/OreCoinFeature.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "OreCoinDeepslate",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_coin_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/block/OreCoinDeepslateBlock.java",
+          "src/main/java/net/rewey/markscoins/world/features/ores/OreCoinDeepslateFeature.java",
+          "src/main/resources/assets/markscoins/blockstates/ore_coin_deepslate.json",
+          "src/main/resources/assets/markscoins/models/block/ore_coin_deepslate.json",
+          "src/main/resources/assets/markscoins/models/item/ore_coin_deepslate.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [
@@ -1634,17 +1598,17 @@
   ],
   "sound_elements": [
     {
-      "name": "usa_anthem_song",
+      "name": "hog-ghost",
       "files": [
-        "star_spangled_banner"
+        "tom_macdonald_-_ghost"
       ],
       "category": "record",
       "subtitle": ""
     },
     {
-      "name": "hog-ghost",
+      "name": "us-anthem",
       "files": [
-        "tom_macdonald_-_ghost"
+        "star_spangled_banner"
       ],
       "category": "record",
       "subtitle": ""
@@ -1667,6 +1631,7 @@
       "block.markscoins.ore_coin": "Coin Ore",
       "advancements.coin_flower_adv.descr": "Aquire coins from a flower",
       "itemGroup.tabcoin_tab": "Mark\u0027s Coins",
+      "subtitles.us-anthem": "",
       "item.markscoins.tommac": "Ghost",
       "item.markscoins.coin_iron": "Iron Coin",
       "item.markscoins.tommac.desc": "HOG - Ghost",
@@ -1674,12 +1639,12 @@
       "advancements.wood_adv.descr": "Aquire your first coin",
       "item.markscoins.usa_anthem.desc": "Star Spangled Banner - Francis Scott Key",
       "advancements.wood_adv.title": "Shiny Penny",
-      "item.markscoins.usa_anthem": "USA National Anthem",
+      "item.markscoins.usa_anthem": "Star Spangled Banner",
       "item.markscoins.coin_diamond": "Diamond Coin",
       "item.markscoins.unbaked_coin": "Unbaked Coin",
       "gui.markscoins.bank_gui.label_varmoney_disp": "\u003cVAR:balance_disp\u003e",
       "gui.markscoins.bank_gui.label_deposit": "Deposit",
-      "block.markscoins.ore_coin_deepslate": "Coin Ore",
+      "block.markscoins.ore_coin_deepslate": "Deepslate Coin Ore",
       "advancements.emerald_adv.title": "Millionaire",
       "item.markscoins.coin_amethyst": "Amethyst Coin",
       "item.markscoins.coin_copper": "Copper Coin",

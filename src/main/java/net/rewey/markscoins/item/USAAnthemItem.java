@@ -15,7 +15,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class USAAnthemItem extends RecordItem {
 	public USAAnthemItem() {
-		super(13, MarkscoinsModSounds.REGISTRY.get(new ResourceLocation("markscoins:usa_anthem_song")), new Item.Properties().tab(MarkscoinsModTabs.TAB_COIN_TAB).stacksTo(1).rarity(Rarity.RARE));
+		super(13, MarkscoinsModSounds.REGISTRY.get(new ResourceLocation("markscoins:us-anthem")), new Item.Properties().tab(MarkscoinsModTabs.TAB_COIN_TAB).stacksTo(1).rarity(Rarity.RARE));
 	}
 
 	@Override
