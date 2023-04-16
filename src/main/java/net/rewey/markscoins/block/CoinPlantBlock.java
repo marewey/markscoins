@@ -75,7 +75,7 @@ public class CoinPlantBlock extends FlowerBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.SAND) || groundState.is(Blocks.DIRT) || groundState.is(Blocks.COARSE_DIRT);
+		return groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.SAND) || groundState.is(Blocks.DIRT) || groundState.is(Blocks.COARSE_DIRT) || groundState.is(Blocks.PODZOL);
 	}
 
 	@Override

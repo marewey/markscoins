@@ -2,16 +2,13 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": {
-        "min": 1,
-        "max": 2
-      },
+      "rolls": 1,
       "bonus_rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "markscoins:coin_wood",
-          "weight": 128,
+          "weight": 256,
           "functions": [
             {
               "function": "set_count",
@@ -67,7 +64,7 @@
         {
           "type": "minecraft:item",
           "name": "markscoins:coin_gold",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",

@@ -90,6 +90,9 @@
       },
       {
         "value": "Blocks.DIRT#1"
+      },
+      {
+        "value": "Blocks.DIRT#2"
       }
     ],
     "isBonemealable": false,
@@ -101,7 +104,7 @@
     "generateCondition": {
       "name": "CoinPlantAdditionalGenerationCondition"
     },
-    "patchSize": 12,
+    "patchSize": 16,
     "generateAtAnyHeight": false,
     "onNeighbourBlockChanges": {
       "name": "CoinPlantUpdateTick"

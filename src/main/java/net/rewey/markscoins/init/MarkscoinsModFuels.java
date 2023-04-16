@@ -16,6 +16,6 @@ public class MarkscoinsModFuels {
 	public static void furnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event) {
 		ItemStack itemstack = event.getItemStack();
 		if (itemstack.getItem() == MarkscoinsModItems.COIN_WOOD.get())
-			event.setBurnTime(1600);
+			event.setBurnTime(3200);
 	}
 }

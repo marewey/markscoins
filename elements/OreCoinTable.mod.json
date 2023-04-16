@@ -8,7 +8,7 @@
         "minrolls": 1,
         "maxrolls": 2,
         "minbonusrolls": 1,
-        "maxbonusrolls": 1,
+        "maxbonusrolls": 2,
         "hasbonusrolls": true,
         "entries": [
           {
@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:CoinWood"
             },
-            "weight": 128,
+            "weight": 1024,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -30,7 +30,7 @@
             "item": {
               "value": "CUSTOM:CoinStone"
             },
-            "weight": 64,
+            "weight": 256,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -44,7 +44,7 @@
             "item": {
               "value": "CUSTOM:CoinCopper"
             },
-            "weight": 16,
+            "weight": 64,
             "minCount": 1,
             "maxCount": 2,
             "minEnchantmentLevel": 0,
@@ -58,7 +58,7 @@
             "item": {
               "value": "CUSTOM:CoinIron"
             },
-            "weight": 4,
+            "weight": 16,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -72,7 +72,7 @@
             "item": {
               "value": "CUSTOM:CoinGold"
             },
-            "weight": 2,
+            "weight": 4,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

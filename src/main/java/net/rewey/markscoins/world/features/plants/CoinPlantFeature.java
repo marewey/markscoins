@@ -35,7 +35,7 @@ public class CoinPlantFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new CoinPlantFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("markscoins:coin_plant", FEATURE,
-				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MarkscoinsModBlocks.COIN_PLANT.get().defaultBlockState())), List.of(), 12));
+				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MarkscoinsModBlocks.COIN_PLANT.get().defaultBlockState())), List.of(), 16));
 		PLACED_FEATURE = PlacementUtils.register("markscoins:coin_plant", CONFIGURED_FEATURE, List.of(CountPlacement.of(1), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

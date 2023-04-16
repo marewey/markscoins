@@ -1134,82 +1134,6 @@
       "path": "~/other"
     },
     {
-      "name": "TPAccept",
-      "type": "procedure",
-      "sortid": 70,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tp_accept",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rewey/markscoins/procedures/TPAcceptProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/procedures"
-    },
-    {
-      "name": "TPRequest",
-      "type": "procedure",
-      "sortid": 71,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tp_request",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rewey/markscoins/procedures/TPRequestProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/procedures"
-    },
-    {
-      "name": "Tpa",
-      "type": "command",
-      "sortid": 72,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tpa",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rewey/markscoins/command/TpaCommand.java"
-        ]
-      },
-      "path": "~/commands"
-    },
-    {
-      "name": "TPAcceptCMD",
-      "type": "command",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tp_accept_cmd",
-      "metadata": {
-        "files": [
-          "src/main/java/net/rewey/markscoins/command/TPAcceptCMDCommand.java"
-        ]
-      },
-      "path": "~/commands"
-    },
-    {
       "name": "MakeATM",
       "type": "recipe",
       "sortid": 74,
@@ -1419,18 +1343,6 @@
       "path": "~/advancements"
     },
     {
-      "name": "Flesh2Leather",
-      "type": "itemextension",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flesh_2_leather",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/other"
-    },
-    {
       "name": "AmethystDispenser",
       "type": "itemextension",
       "sortid": 91,
@@ -1582,18 +1494,6 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
-    },
-    {
-      "name": "tpa_request",
-      "type": "string",
-      "scope": "player_persistent",
-      "value": "\"\""
-    },
-    {
-      "name": "tpa_state",
-      "type": "logic",
-      "scope": "player_lifetime",
-      "value": "false"
     }
   ],
   "sound_elements": [
@@ -1703,11 +1603,12 @@
   },
   "workspaceSettings": {
     "modid": "markscoins",
-    "modName": "markscoins",
-    "version": "1.2.1",
+    "modName": "Mark\u0027s Coins",
+    "version": "1.2.2",
+    "description": "Add\u0027s an economy as well as special powers for some coins",
     "author": "markr, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "websiteURL": "https://pcmod.ddns.me",
+    "license": "Public Domain",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

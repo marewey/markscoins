@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="Public Domain"
 
 [[mods]]
 modId="markscoins"
-version="1.2.1"
-displayName="markscoins"
+version="1.2.2"
+displayName="Mark's Coins"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+displayURL="https://pcmod.ddns.me"
 authors="markr, MCreator"
+description='''
+Add's an economy as well as special powers for some coins
+'''
 
 [[dependencies.markscoins]]
     modId="minecraft"
