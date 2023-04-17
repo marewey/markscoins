@@ -474,7 +474,7 @@
         "entries": [
           {
             "price1": {
-              "value": "CUSTOM:CoinIron"
+              "value": "CUSTOM:CoinGold"
             },
             "countPrice1": 2,
             "price2": {
@@ -484,7 +484,7 @@
             "offer": {
               "value": "Blocks.BOOKSHELF"
             },
-            "countOffer": 1,
+            "countOffer": 4,
             "level": 3,
             "maxTrades": 10,
             "xp": 5,
@@ -494,13 +494,13 @@
             "price1": {
               "value": "Blocks.BOOKSHELF"
             },
-            "countPrice1": 1,
+            "countPrice1": 4,
             "price2": {
               "value": ""
             },
             "countPrice2": 1,
             "offer": {
-              "value": "CUSTOM:CoinIron"
+              "value": "CUSTOM:CoinGold"
             },
             "countOffer": 1,
             "level": 3,
@@ -530,7 +530,7 @@
             "price1": {
               "value": "Items.PAPER"
             },
-            "countPrice1": 1,
+            "countPrice1": 4,
             "price2": {
               "value": ""
             },
@@ -556,7 +556,7 @@
             "offer": {
               "value": "Items.PAPER"
             },
-            "countOffer": 1,
+            "countOffer": 4,
             "level": 1,
             "maxTrades": 10,
             "xp": 2,
@@ -564,9 +564,9 @@
           },
           {
             "price1": {
-              "value": "CUSTOM:CoinCopper"
+              "value": "CUSTOM:CoinIron"
             },
-            "countPrice1": 2,
+            "countPrice1": 1,
             "price2": {
               "value": ""
             },
@@ -574,7 +574,7 @@
             "offer": {
               "value": "Items.BOOK"
             },
-            "countOffer": 1,
+            "countOffer": 2,
             "level": 2,
             "maxTrades": 10,
             "xp": 3,
@@ -691,8 +691,8 @@
             },
             "countOffer": 1,
             "level": 2,
-            "maxTrades": 10,
-            "xp": 5,
+            "maxTrades": 7,
+            "xp": 20,
             "priceMultiplier": 0.05
           },
           {
@@ -710,7 +710,7 @@
             "countOffer": 1,
             "level": 5,
             "maxTrades": 10,
-            "xp": 5,
+            "xp": 15,
             "priceMultiplier": 0.05
           },
           {
@@ -756,78 +756,6 @@
           "value": "ARMORER"
         },
         "entries": [
-          {
-            "price1": {
-              "value": "CUSTOM:CoinAmethyst"
-            },
-            "countPrice1": 2,
-            "price2": {
-              "value": ""
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "Items.DIAMOND_CHESTPLATE"
-            },
-            "countOffer": 1,
-            "level": 4,
-            "maxTrades": 10,
-            "xp": 10,
-            "priceMultiplier": 0.05
-          },
-          {
-            "price1": {
-              "value": "CUSTOM:CoinAmethyst"
-            },
-            "countPrice1": 1,
-            "price2": {
-              "value": ""
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "Items.DIAMOND_LEGGINGS"
-            },
-            "countOffer": 1,
-            "level": 4,
-            "maxTrades": 10,
-            "xp": 10,
-            "priceMultiplier": 0.05
-          },
-          {
-            "price1": {
-              "value": "CUSTOM:CoinPlatinum"
-            },
-            "countPrice1": 3,
-            "price2": {
-              "value": ""
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "Items.DIAMOND_HELMET"
-            },
-            "countOffer": 1,
-            "level": 4,
-            "maxTrades": 10,
-            "xp": 10,
-            "priceMultiplier": 0.05
-          },
-          {
-            "price1": {
-              "value": "CUSTOM:CoinPlatinum"
-            },
-            "countPrice1": 2,
-            "price2": {
-              "value": ""
-            },
-            "countPrice2": 1,
-            "offer": {
-              "value": "Items.DIAMOND_BOOTS"
-            },
-            "countOffer": 1,
-            "level": 4,
-            "maxTrades": 10,
-            "xp": 11,
-            "priceMultiplier": 0.05
-          },
           {
             "price1": {
               "value": "CUSTOM:CoinDiamond"
@@ -958,7 +886,7 @@
             "countOffer": 1,
             "level": 4,
             "maxTrades": 5,
-            "xp": 5,
+            "xp": 20,
             "priceMultiplier": 0.05
           },
           {
@@ -976,7 +904,7 @@
             "countOffer": 1,
             "level": 5,
             "maxTrades": 10,
-            "xp": 5,
+            "xp": 20,
             "priceMultiplier": 0.05
           },
           {
@@ -994,7 +922,7 @@
             "countOffer": 1,
             "level": 2,
             "maxTrades": 5,
-            "xp": 5,
+            "xp": 15,
             "priceMultiplier": 0.05
           },
           {
@@ -1012,7 +940,7 @@
             "countOffer": 1,
             "level": 3,
             "maxTrades": 10,
-            "xp": 5,
+            "xp": 15,
             "priceMultiplier": 0.05
           },
           {
@@ -1030,7 +958,7 @@
             "countOffer": 1,
             "level": 1,
             "maxTrades": 5,
-            "xp": 5,
+            "xp": 10,
             "priceMultiplier": 0.05
           },
           {
@@ -1048,7 +976,7 @@
             "countOffer": 8,
             "level": 2,
             "maxTrades": 10,
-            "xp": 5,
+            "xp": 10,
             "priceMultiplier": 0.05
           },
           {

@@ -97,24 +97,24 @@ public class MarkscoinsModTrades {
 					new ItemStack(Items.COOKED_CHICKEN, 2), 10, 5, 0.05f));
 		}
 		if (event.getType() == VillagerProfession.LIBRARIAN) {
-			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_IRON.get(), 2),
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_GOLD.get(), 2),
 
-					new ItemStack(Blocks.BOOKSHELF), 10, 5, 0.05f));
-			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Blocks.BOOKSHELF),
+					new ItemStack(Blocks.BOOKSHELF, 4), 10, 5, 0.05f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Blocks.BOOKSHELF, 4),
 
-					new ItemStack(MarkscoinsModItems.COIN_IRON.get()), 10, 5, 0.05f));
+					new ItemStack(MarkscoinsModItems.COIN_GOLD.get()), 10, 5, 0.05f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.BOOK, 2),
 
 					new ItemStack(MarkscoinsModItems.COIN_COPPER.get()), 10, 3, 0.05f));
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.PAPER),
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.PAPER, 4),
 
 					new ItemStack(MarkscoinsModItems.COIN_STONE.get()), 10, 2, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_STONE.get(), 2),
 
-					new ItemStack(Items.PAPER), 10, 2, 0.05f));
-			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_COPPER.get(), 2),
+					new ItemStack(Items.PAPER, 4), 10, 2, 0.05f));
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_IRON.get()),
 
-					new ItemStack(Items.BOOK), 10, 3, 0.05f));
+					new ItemStack(Items.BOOK, 2), 10, 3, 0.05f));
 		}
 		if (event.getType() == VillagerProfession.CLERIC) {
 			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_AMETHYST.get(), 3), new ItemStack(MarkscoinsModItems.COIN_PLATINUM.get(), 2), new ItemStack(Items.BLAZE_POWDER, 2), 4, 5, 0.05f));
@@ -132,10 +132,10 @@ public class MarkscoinsModTrades {
 					new ItemStack(Items.EXPERIENCE_BOTTLE), 10, 5, 0.05f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 4),
 
-					new ItemStack(MarkscoinsModItems.COIN_GOLD.get()), 10, 5, 0.05f));
+					new ItemStack(MarkscoinsModItems.COIN_GOLD.get()), 7, 20, 0.05f));
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_RUBY.get()),
 
-					new ItemStack(Items.EMERALD), 10, 5, 0.05f));
+					new ItemStack(Items.EMERALD), 10, 15, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.GOLD_INGOT, 16),
 
 					new ItemStack(MarkscoinsModItems.COIN_GOLD.get()), 10, 5, 0.05f));
@@ -144,18 +144,6 @@ public class MarkscoinsModTrades {
 					new ItemStack(Items.GOLD_INGOT), 10, 5, 0.05f));
 		}
 		if (event.getType() == VillagerProfession.ARMORER) {
-			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_AMETHYST.get(), 2),
-
-					new ItemStack(Items.DIAMOND_CHESTPLATE), 10, 10, 0.05f));
-			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_AMETHYST.get()),
-
-					new ItemStack(Items.DIAMOND_LEGGINGS), 10, 10, 0.05f));
-			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_PLATINUM.get(), 3),
-
-					new ItemStack(Items.DIAMOND_HELMET), 10, 10, 0.05f));
-			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_PLATINUM.get(), 2),
-
-					new ItemStack(Items.DIAMOND_BOOTS), 10, 11, 0.05f));
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_DIAMOND.get(), 2),
 
 					new ItemStack(Items.NETHERITE_CHESTPLATE), 10, 20, 0.05f));
@@ -172,22 +160,22 @@ public class MarkscoinsModTrades {
 		if (event.getType() == VillagerProfession.TOOLSMITH) {
 			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.DIAMOND, 4),
 
-					new ItemStack(MarkscoinsModItems.COIN_PLATINUM.get()), 5, 5, 0.05f));
+					new ItemStack(MarkscoinsModItems.COIN_PLATINUM.get()), 5, 20, 0.05f));
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_RUBY.get()),
 
-					new ItemStack(Items.DIAMOND), 10, 5, 0.05f));
+					new ItemStack(Items.DIAMOND), 10, 20, 0.05f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT, 16),
 
-					new ItemStack(MarkscoinsModItems.COIN_IRON.get()), 5, 5, 0.05f));
+					new ItemStack(MarkscoinsModItems.COIN_IRON.get()), 5, 15, 0.05f));
 			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_AMETHYST.get()),
 
-					new ItemStack(Items.IRON_INGOT), 10, 5, 0.05f));
+					new ItemStack(Items.IRON_INGOT), 10, 15, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.COPPER_INGOT, 8),
 
-					new ItemStack(MarkscoinsModItems.COIN_COPPER.get()), 5, 5, 0.05f));
+					new ItemStack(MarkscoinsModItems.COIN_COPPER.get()), 5, 10, 0.05f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(MarkscoinsModItems.COIN_GOLD.get()),
 
-					new ItemStack(Items.COPPER_INGOT, 8), 10, 5, 0.05f));
+					new ItemStack(Items.COPPER_INGOT, 8), 10, 10, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.COAL),
 
 					new ItemStack(MarkscoinsModItems.COIN_WOOD.get(), 2), 10, 5, 0.05f));
