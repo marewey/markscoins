@@ -17,6 +17,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.rewey.markscoins.init.MarkscoinsModTabs;
+import net.rewey.markscoins.init.MarkscoinsModPotions;
 import net.rewey.markscoins.init.MarkscoinsModParticleTypes;
 import net.rewey.markscoins.init.MarkscoinsModMobEffects;
 import net.rewey.markscoins.init.MarkscoinsModItems;
@@ -54,6 +55,7 @@ public class MarkscoinsMod {
 		MarkscoinsModFeatures.REGISTRY.register(bus);
 
 		MarkscoinsModMobEffects.REGISTRY.register(bus);
+		MarkscoinsModPotions.REGISTRY.register(bus);
 
 		MarkscoinsModParticleTypes.REGISTRY.register(bus);
 	}

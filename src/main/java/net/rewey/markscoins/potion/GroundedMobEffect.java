@@ -16,7 +16,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class GroundedMobEffect extends MobEffect {
 	public GroundedMobEffect() {
-		super(MobEffectCategory.HARMFUL, -6710887);
+		super(MobEffectCategory.HARMFUL, -10066330);
 	}
 
 	@Override
