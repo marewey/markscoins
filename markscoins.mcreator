@@ -1696,6 +1696,7 @@
     "license": "Public Domain",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "icon",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

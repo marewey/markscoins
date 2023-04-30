@@ -8,6 +8,7 @@ version="1.2.3"
 displayName="Mark's Coins"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://pcmod.ddns.me"
+logoFile="logo.png"
 authors="markr, MCreator"
 description='''
 Add's an economy as well as special powers for some coins
