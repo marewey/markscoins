@@ -1,0 +1,60 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.GOLD_ORE"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_GOLD_ORE"
+      },
+      {
+        "value": "Blocks.NETHER_GOLD_ORE"
+      },
+      {
+        "value": "Blocks.RAW_GOLD_BLOCK"
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "Blocks.LIGHT_WEIGHTED_PRESSURE_PLATE"
+      },
+      {
+        "value": "Blocks.BREWING_STAND"
+      },
+      {
+        "value": "Blocks.WEATHERED_COPPER"
+      },
+      {
+        "value": "Blocks.WEATHERED_CUT_COPPER"
+      },
+      {
+        "value": "Blocks.WEATHERED_CUT_COPPER_STAIRS"
+      },
+      {
+        "value": "Blocks.WEATHERED_CUT_COPPER_SLAB"
+      },
+      {
+        "value": "Blocks.WAXED_WEATHERED_COPPER"
+      },
+      {
+        "value": "Blocks.WAXED_WEATHERED_CUT_COPPER"
+      },
+      {
+        "value": "Blocks.WAXED_WEATHERED_CUT_COPPER_STAIRS"
+      },
+      {
+        "value": "Blocks.WAXED_WEATHERED_CUT_COPPER_SLAB"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "semi_conductive_blocks",
+    "namespace": "forge"
+  }
+}

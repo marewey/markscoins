@@ -1,0 +1,75 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.COPPER_ORE"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_COPPER_ORE"
+      },
+      {
+        "value": "Blocks.EXPOSED_COPPER"
+      },
+      {
+        "value": "Blocks.OXIDIZED_COPPER"
+      },
+      {
+        "value": "Blocks.EXPOSED_CUT_COPPER"
+      },
+      {
+        "value": "Blocks.OXIDIZED_CUT_COPPER"
+      },
+      {
+        "value": "Blocks.EXPOSED_CUT_COPPER_STAIRS"
+      },
+      {
+        "value": "Blocks.OXIDIZED_CUT_COPPER_STAIRS"
+      },
+      {
+        "value": "Blocks.EXPOSED_CUT_COPPER_SLAB"
+      },
+      {
+        "value": "Blocks.OXIDIZED_CUT_COPPER_SLAB"
+      },
+      {
+        "value": "Blocks.WAXED_EXPOSED_COPPER"
+      },
+      {
+        "value": "Blocks.WAXED_OXIDIZED_COPPER"
+      },
+      {
+        "value": "Blocks.WAXED_EXPOSED_CUT_COPPER"
+      },
+      {
+        "value": "Blocks.WAXED_OXIDIZED_CUT_COPPER"
+      },
+      {
+        "value": "Blocks.WAXED_EXPOSED_CUT_COPPER_STAIRS"
+      },
+      {
+        "value": "Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS"
+      },
+      {
+        "value": "Blocks.WAXED_EXPOSED_CUT_COPPER_SLAB"
+      },
+      {
+        "value": "Blocks.WAXED_OXIDIZED_CUT_COPPER_SLAB"
+      },
+      {
+        "value": "Blocks.END_ROD"
+      },
+      {
+        "value": "Blocks.BEACON"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "conductive_blocks",
+    "namespace": "forge"
+  }
+}

@@ -1151,6 +1151,7 @@
     {
       "name": "CoinsTag",
       "type": "tag",
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coins_tag",
@@ -1443,6 +1444,7 @@
       "registry_name": "ore_coin",
       "metadata": {
         "files": [
+          "src/main/java/net/rewey/markscoins/block/entity/OreCoinBlockEntity.java",
           "src/main/resources/assets/markscoins/models/block/ore_coin.json",
           "src/main/java/net/rewey/markscoins/block/OreCoinBlock.java",
           "src/main/resources/assets/markscoins/blockstates/ore_coin.json",
@@ -1464,6 +1466,7 @@
           "src/main/java/net/rewey/markscoins/block/OreCoinDeepslateBlock.java",
           "src/main/java/net/rewey/markscoins/world/features/ores/OreCoinDeepslateFeature.java",
           "src/main/resources/assets/markscoins/blockstates/ore_coin_deepslate.json",
+          "src/main/java/net/rewey/markscoins/block/entity/OreCoinDeepslateBlockEntity.java",
           "src/main/resources/assets/markscoins/models/block/ore_coin_deepslate.json",
           "src/main/resources/assets/markscoins/models/item/ore_coin_deepslate.json"
         ]
@@ -1548,6 +1551,186 @@
         ]
       },
       "path": "~/recipes"
+    },
+    {
+      "name": "SuperConductiveBlocks",
+      "type": "tag",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_conductive_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/super_conductive_blocks.json"
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "ConductiveBlocks",
+      "type": "tag",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conductive_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/conductive_blocks.json"
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "SemiConductiveBlocks",
+      "type": "tag",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semi_conductive_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/semi_conductive_blocks.json"
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "OreCoinUpdateTick",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_coin_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/OreCoinUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "Debugores",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugores",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/DebugoresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CoinScanner",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_scanner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rewey/markscoins/item/CoinScannerItem.java",
+          "src/main/resources/assets/markscoins/models/item/coin_scanner.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CoinScannerMakeItemGlow",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_scanner_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/rewey/markscoins/procedures/CoinScannerMakeItemGlowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "MakeScanner",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_scanner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/markscoins/recipes/make_scanner.json"
+        ]
+      },
+      "path": "~/recipes"
     }
   ],
   "variable_elements": [
@@ -1578,17 +1761,17 @@
   ],
   "sound_elements": [
     {
-      "name": "hog-ghost",
+      "name": "us-anthem",
       "files": [
-        "tom_macdonald_-_ghost"
+        "star_spangled_banner"
       ],
       "category": "record",
       "subtitle": ""
     },
     {
-      "name": "us-anthem",
+      "name": "hog-ghost",
       "files": [
-        "star_spangled_banner"
+        "tom_macdonald_-_ghost"
       ],
       "category": "record",
       "subtitle": ""
@@ -1641,6 +1824,7 @@
       "item.markscoins.usa_anthem": "Star Spangled Banner",
       "item.markscoins.coin_diamond": "Diamond Coin",
       "item.markscoins.coin_amethyst": "Amethyst Coin",
+      "item.markscoins.coin_scanner": "Coin Scanner",
       "item.markscoins.coin_gold": "Gold Coin",
       "advancements.emerald_adv.descr": "Reach 1 Million PC",
       "advancements.netherite_adv.descr": "Reach 4 Million PC",
@@ -1689,7 +1873,7 @@
   "workspaceSettings": {
     "modid": "markscoins",
     "modName": "Mark\u0027s Coins",
-    "version": "1.2.4",
+    "version": "1.2.6",
     "description": "Add\u0027s an economy as well as special powers for some coins",
     "author": "markr, MCreator",
     "websiteURL": "https://pcmod.ddns.me",

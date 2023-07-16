@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "markscoins:blocks/orecoindeepslate",
-    "particle": "markscoins:blocks/orecoindeepslate"
+    "down": "markscoins:blocks/orecoindeepslate_top",
+    "up": "markscoins:blocks/orecoindeepslate_top",
+    "north": "markscoins:blocks/orecoindeepslate_side",
+    "east": "markscoins:blocks/orecoindeepslate_side",
+    "south": "markscoins:blocks/orecoindeepslate_side",
+    "west": "markscoins:blocks/orecoindeepslate_side",
+    "particle": "markscoins:blocks/orecoindeepslate_top"
   }
 }

@@ -1,0 +1,45 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.RAW_COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.CUT_COPPER"
+      },
+      {
+        "value": "Blocks.CUT_COPPER_STAIRS"
+      },
+      {
+        "value": "Blocks.CUT_COPPER_SLAB"
+      },
+      {
+        "value": "Blocks.WAXED_COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.WAXED_CUT_COPPER"
+      },
+      {
+        "value": "Blocks.WAXED_CUT_COPPER_STAIRS"
+      },
+      {
+        "value": "Blocks.WAXED_CUT_COPPER_SLAB"
+      },
+      {
+        "value": "Blocks.LIGHTNING_ROD"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "super_conductive_blocks",
+    "namespace": "forge"
+  }
+}

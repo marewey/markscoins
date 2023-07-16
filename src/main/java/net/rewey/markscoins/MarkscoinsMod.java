@@ -23,6 +23,7 @@ import net.rewey.markscoins.init.MarkscoinsModMobEffects;
 import net.rewey.markscoins.init.MarkscoinsModItems;
 import net.rewey.markscoins.init.MarkscoinsModFeatures;
 import net.rewey.markscoins.init.MarkscoinsModBlocks;
+import net.rewey.markscoins.init.MarkscoinsModBlockEntities;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
@@ -52,6 +53,7 @@ public class MarkscoinsMod {
 		MarkscoinsModBlocks.REGISTRY.register(bus);
 		MarkscoinsModItems.REGISTRY.register(bus);
 
+		MarkscoinsModBlockEntities.REGISTRY.register(bus);
 		MarkscoinsModFeatures.REGISTRY.register(bus);
 
 		MarkscoinsModMobEffects.REGISTRY.register(bus);

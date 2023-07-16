@@ -15,11 +15,11 @@ public class CoinGoldItemInInventoryTickProcedure {
 			return;
 		if (Mth.nextInt(new Random(), -26, 0) + (itemstack).getCount() >= 1) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 1, 0, (false), (false)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 1, 1));
 		}
 		if (Math.random() < 1e-9) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.BAD_OMEN, 500, 0, (false), (false)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.BAD_OMEN, 500, 1));
 		}
 	}
 }

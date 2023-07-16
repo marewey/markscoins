@@ -18,8 +18,8 @@ import java.util.HashMap;
 public class MarkscoinsModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
-		REGISTRY.put(new ResourceLocation("markscoins", "hog-ghost"), new SoundEvent(new ResourceLocation("markscoins", "hog-ghost")));
 		REGISTRY.put(new ResourceLocation("markscoins", "us-anthem"), new SoundEvent(new ResourceLocation("markscoins", "us-anthem")));
+		REGISTRY.put(new ResourceLocation("markscoins", "hog-ghost"), new SoundEvent(new ResourceLocation("markscoins", "hog-ghost")));
 	}
 
 	@SubscribeEvent

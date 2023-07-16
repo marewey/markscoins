@@ -35,7 +35,7 @@
     ],
     "name": "Coin Ore",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 3.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -57,7 +57,7 @@
       "value": "ROCK"
     },
     "tickRate": 0,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -98,14 +98,14 @@
     },
     "luminance": 1,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": true,
+    "inventoryDropWhenDestroyed": false,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
@@ -117,6 +117,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "OreCoinUpdateTick"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -128,7 +131,7 @@
     ],
     "generationShape": "TRIANGLE",
     "frequencyPerChunks": 2,
-    "frequencyOnChunk": 6,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 27
   }

@@ -9,6 +9,7 @@ import net.rewey.markscoins.item.USAAnthemItem;
 import net.rewey.markscoins.item.TommacItem;
 import net.rewey.markscoins.item.CoinWoodItem;
 import net.rewey.markscoins.item.CoinStoneItem;
+import net.rewey.markscoins.item.CoinScannerItem;
 import net.rewey.markscoins.item.CoinSapphireItem;
 import net.rewey.markscoins.item.CoinRubyItem;
 import net.rewey.markscoins.item.CoinPlatinumItem;
@@ -53,6 +54,7 @@ public class MarkscoinsModItems {
 	public static final RegistryObject<Item> USA_ANTHEM = REGISTRY.register("usa_anthem", () -> new USAAnthemItem());
 	public static final RegistryObject<Item> ORE_COIN = block(MarkscoinsModBlocks.ORE_COIN, MarkscoinsModTabs.TAB_COIN_TAB);
 	public static final RegistryObject<Item> ORE_COIN_DEEPSLATE = block(MarkscoinsModBlocks.ORE_COIN_DEEPSLATE, MarkscoinsModTabs.TAB_COIN_TAB);
+	public static final RegistryObject<Item> COIN_SCANNER = REGISTRY.register("coin_scanner", () -> new CoinScannerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

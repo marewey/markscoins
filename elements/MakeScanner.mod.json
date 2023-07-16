@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.STONE"
+        "value": ""
       },
       {
-        "value": "Blocks.STONE"
+        "value": ""
       },
       {
-        "value": "Blocks.STONE"
+        "value": "CUSTOM:CoinPlatinum"
       },
       {
-        "value": "Blocks.STONE"
+        "value": ""
       },
       {
-        "value": "CUSTOM:CoinGold"
+        "value": "Items.STICK"
       },
       {
-        "value": "Blocks.STONE"
+        "value": ""
       },
       {
-        "value": "Blocks.STONE"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.ENDER_PEARL"
+        "value": ""
       },
       {
-        "value": "Blocks.STONE"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ATM"
+      "value": "CUSTOM:CoinScanner"
     },
-    "name": "make_atm",
+    "name": "make_scanner",
     "namespace": "mod"
   }
 }

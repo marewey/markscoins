@@ -1,18 +1,18 @@
 {
-  "hog-ghost": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "markscoins:tom_macdonald_-_ghost",
-        "stream": true
-      }
-    ]
-  },
   "us-anthem": {
     "category": "record",
     "sounds": [
       {
         "name": "markscoins:star_spangled_banner",
+        "stream": true
+      }
+    ]
+  },
+  "hog-ghost": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "markscoins:tom_macdonald_-_ghost",
         "stream": true
       }
     ]
